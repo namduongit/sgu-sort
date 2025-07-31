@@ -1,0 +1,8 @@
+.footer {
+    font-weight: bold;
+}
+
+.footer-content p {
+    margin: 0;
+    padding: 10px 0;
+}

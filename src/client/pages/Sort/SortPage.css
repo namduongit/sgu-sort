@@ -1,0 +1,29 @@
+.sort-page {
+    background-color: #f9fafb;
+    min-height: 100vh;
+}
+
+.sort-box,
+.calendar-box {
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.subject-list {
+    max-height: 350px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.subject-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.subject-list::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}

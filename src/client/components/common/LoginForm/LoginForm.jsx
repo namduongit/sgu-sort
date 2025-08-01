@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { login } from '../../../services/authService';
-
+import { saveLocationToken } from '../../../utils/tokenManager';
 
 const LoginForm = ({ onSuccess }) => {
     const [username, setUsername] = useState('');
@@ -16,6 +16,10 @@ const LoginForm = ({ onSuccess }) => {
         event.preventDefault();
         const result = await login(username, password);
         console.log(result);
+        if (result.code === '200') {
+            saveLocationToken("CURRENT_USER", result);
+            onSuccess();
+        }
     }
 
     return (

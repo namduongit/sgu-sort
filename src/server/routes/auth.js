@@ -20,12 +20,12 @@ router.post("/login", async (req, res) => {
             }),
             {
                 headers: {
-                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Content-Type": "application/x-www-form-urlencoded"
                 }
             }
         );
         res.json(response.data);
-        console.log(response.data);
+        console.log("Login data: ", response.data);
     } catch (error) {
         console.error("SGU login failed:", error?.response?.data || error.message);
         res.status(500).json({ message: "Login to SGU failed" });
@@ -50,7 +50,8 @@ router.post("/refresh", async (req, res) => {
             }
         );
         res.json(response.data);
-        console.log(response.data);
+        console.log("Refresh token data: ", response.data);
+
     } catch (error) {
         console.error("SGU refresh failed:", error?.response?.data || error.message);
         res.status(500).json({ message: "Refresh token failed" });

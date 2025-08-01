@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_LOGIN_URL = "http://localhost:5000/api/auth/login";
-const API_REFRESH_URL = "http://localhost:5000/api/auth/refresh";
+const API_LOGIN_URL = "http://192.168.3.14:5000/api/auth/login";
+const API_REFRESH_URL = "http://192.168.3.14:5000/api/auth/refresh";
 
 export const login = async (username, password) => {
     try {

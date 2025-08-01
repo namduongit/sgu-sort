@@ -1,0 +1,245 @@
+.sort-page {
+    background-color: #f9fafb;
+    min-height: 100vh;
+}
+
+.sort-box,
+.calendar-box {
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.subject-list {
+    max-height: 350px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.subject-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.subject-list::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.sort-page-scheduler {
+    height: fit-content;
+}
+
+.collapsible {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.collapsible.show {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.subject-box {
+    background-color: #f9f9fb;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.subject-item {
+    background-color: white;
+    padding: 0.75rem 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.subject-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.subject-item h6 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    transition: color 0.2s ease;
+}
+
+.subject-item:hover h6 {
+    color: #0056b3;
+}
+
+.subject-item i {
+    font-size: 1rem;
+    color: #555;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.subject-item:hover i {
+    color: #0056b3;
+}
+
+.subject-item .fa-minus {
+    transform: rotate(180deg);
+}
+
+.subject-item .fa-plus {
+    transform: rotate(0deg);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.text-muted.fst-italic {
+    padding-left: 0.5rem;
+    font-style: italic;
+    color: #888 !important;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #fff;
+}
+
+thead tr {
+  background-color: #343a40;
+  color: #fff;
+}
+
+thead td {
+  padding: 12px 8px;
+  font-weight: bold;
+}
+
+tbody td {
+  border: 1px solid #dee2e6;
+  padding: 10px 6px;
+  min-height: 50px;
+  vertical-align: middle;
+  word-break: break-word;
+  background-color: #f8f9fa;
+  transition: background-color 0.2s ease-in-out;
+}
+
+tbody tr:nth-child(even) td {
+  background-color: #f1f3f5;
+}
+
+tbody td:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+  table, thead, tbody, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tbody tr {
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  tbody td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    position: relative;
+  }
+
+  tbody td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-align: left;
+    min-width: 100px;
+  }
+}
+
+
+/* Màn hình rất nhỏ (điện thoại) */
+@media (max-width: 575.98px) {
+    /* CSS ở đây áp dụng cho xs */
+}
+
+/* Nhỏ (sm) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* CSS áp dụng cho sm */
+}
+
+/* Trung bình (md) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sort-page-content {
+        flex-direction: column;
+    }
+
+    .search-box {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .sort-box {
+        width: 35%;
+        margin-bottom: 0;
+    }
+
+    .result-box {
+        width: 60%;
+    }
+
+    .sort-page-scheduler {
+        width: 100%;
+    }
+}
+
+/* Lớn (lg) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* CSS áp dụng cho lg */
+    .sort-box {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Rất lớn (xl) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* CSS áp dụng cho xl */
+    .sort-box {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Siêu lớn (xxl) */
+@media (min-width: 1400px) {
+    /* CSS áp dụng cho xxl */
+    .sort-box {
+        margin-bottom: 2rem;
+    }
+}

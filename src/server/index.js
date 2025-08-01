@@ -11,9 +11,12 @@ app.get("/", (req, res) => {
   res.send("Hello from backend!");
 });
 
-const sguAuth = require("./routes/sguAuth");
-app.use("/api/auth", sguAuth);
+const auth = require("./routes/auth");
+app.use("/api/auth", auth);
+
+const subject = require("./routes/subject");
+app.use("/api/subject", subject);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on http://192.168.3.14:${PORT}`);
 });

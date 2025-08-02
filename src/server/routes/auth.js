@@ -27,7 +27,7 @@ router.post("/login", async (req, res) => {
         res.json(response.data);
         console.log("Login data: ", response.data);
     } catch (error) {
-        console.error("SGU login failed:", error?.response?.data || error.message);
+        console.error(" login failed:", error?.response?.data || error.message);
         res.status(500).json({ message: "Login to SGU failed" });
     }
 });

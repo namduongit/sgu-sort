@@ -49,6 +49,17 @@ const useSubjects = () => {
         }
 
         const CURRENT_USER = getLocationToken("CURRENT_USER");
+
+        // Giờ hết hạn
+        const expires = new Date(CURRENT_USER[".expires"]);
+        if (expires < new Date()) {
+            // Chạy vào đây
+            console.log("Chạy vào đây để xử lý hết hạn");
+
+            return;
+        }
+
+
         const access_token = CURRENT_USER?.access_token;
 
         async function fetchSubjects() {

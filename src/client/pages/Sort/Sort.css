@@ -14,7 +14,7 @@
 }
 
 .subject-list {
-    max-height: 350px;
+    max-height: 400px;
     overflow-y: auto;
     padding-right: 8px;
 }
@@ -42,14 +42,6 @@
 .collapsible.show {
   max-height: 1000px;
   opacity: 1;
-}
-
-.subject-box {
-    background-color: #f9f9fb;
-    padding: 1rem;
-    border-radius: 12px;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .subject-item {
@@ -113,77 +105,6 @@
 }
 
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-  text-align: center;
-  font-size: 0.9rem;
-  background-color: #fff;
-}
-
-thead tr {
-  background-color: #343a40;
-  color: #fff;
-}
-
-thead td {
-  padding: 12px 8px;
-  font-weight: bold;
-}
-
-tbody td {
-  border: 1px solid #dee2e6;
-  padding: 10px 6px;
-  min-height: 50px;
-  vertical-align: middle;
-  word-break: break-word;
-  background-color: #f8f9fa;
-  transition: background-color 0.2s ease-in-out;
-}
-
-tbody tr:nth-child(even) td {
-  background-color: #f1f3f5;
-}
-
-tbody td:hover {
-  background-color: #e9ecef;
-  cursor: pointer;
-}
-
-/* Responsive table */
-@media (max-width: 768px) {
-  table, thead, tbody, td, tr {
-    display: block;
-  }
-
-  thead {
-    display: none;
-  }
-
-  tbody tr {
-    margin-bottom: 10px;
-    border: 1px solid #dee2e6;
-    border-radius: 6px;
-    overflow: hidden;
-  }
-
-  tbody td {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 12px;
-    position: relative;
-  }
-
-  tbody td::before {
-    content: attr(data-label);
-    font-weight: bold;
-    text-align: left;
-    min-width: 100px;
-  }
-}
-
-
 /* Màn hình rất nhỏ (điện thoại) */
 @media (max-width: 575.98px) {
     /* CSS ở đây áp dụng cho xs */
@@ -223,8 +144,27 @@ tbody td:hover {
 /* Lớn (lg) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /* CSS áp dụng cho lg */
+    .sort-page-content {
+        flex-direction: column;
+    }
+
+    .search-box {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
     .sort-box {
-        margin-bottom: 1rem;
+        width: 35%;
+        margin-bottom: 0;
+    }
+
+    .result-box {
+        width: 60%;
+    }
+
+    .sort-page-scheduler {
+        width: 100%;
     }
 }
 

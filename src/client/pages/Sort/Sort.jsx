@@ -8,9 +8,7 @@ import Subject from "../../components/common/Subject/Subject";
 import SubjectGroup from "../../components/common/SubjectGroup/SubjectGroup";
 import Calendar from "../../components/common/Calendar/Calender";
 
-import { checkConflict, parseSchedule } from "../../utils/parseSchedule";
-
-const calendar = Array.from({ length: 10 }, () => Array(8).fill(null));
+import { checkConflict } from "../../utils/parseSchedule";
 
 const SortPage = () => {
     const { data, loading } = useSubjects();
@@ -46,18 +44,45 @@ const SortPage = () => {
         }]);
     };
 
-    const isScheduleConflict = (newCal) => {
+    const isScheduleConflict = (nt) => {
+        if (isHasGroup(nt)) {
+            alert("Đã có môn này");
+            return;
+        }
         const tkbOrders = calendar.map(cal => cal.tkb);
-        const isConflict = checkConflict(newCal.tkb, tkbOrders);
+        const isConflict = checkConflict(nt.tkb, tkbOrders);
         if (isConflict) {
             alert("Lịch học bị trùng!");
             return;
         }
-        setCalendar(prev => [...prev, newCal]);
+        setCalendar(prev => [...prev, nt]);
     }
 
-    const handleCalendarSubject = (newCal) => {
-        isScheduleConflict(newCal);
+    const handleCalendarSubject = (nt) => {
+        if (isSelectGroup(nt)) {
+            setCalendar(calendar.filter(cal => cal.ma_mon !== nt.ma_mon && cal.nhom_to !== nt.nhom_to))
+            return;
+        }
+        isScheduleConflict(nt);
+    }
+
+    const isSelectGroup = (nt) => {
+        return calendar.find(cal => cal.ma_mon === nt.ma_mon && cal.nhom_to === nt.nhom_to);
+    }
+
+    const isHasGroup = (nt) => {
+        return calendar.find(cal => cal.ma_mon === nt.ma_mon);
+    }
+
+    const handleClearSubject = (subject) => {
+        setChosenSubjects(choosenSubjects.filter(sub => sub.ma !== subject.ma_mon));
+        setShowGroupSubject(showGroupSubject.filter(sub => sub.ma_mon !== subject.ma_mon));
+        setCalendar(calendar.filter(cal => cal.ma_mon !== subject.ma_mon));
+    }
+
+    const resetData = () => {
+        localStorage.removeItem("CURRENT_SUBJECT");
+        window.location.reload();
     }
 
     useEffect(() => {
@@ -148,51 +173,44 @@ const SortPage = () => {
                             />
                         </h5>
                         {showResultSubject && (
-                            <>
-                                <div className="subject-box position-relative">
-                                    {showGroupSubject.length > 0 ? (
-                                        showGroupSubject.map((group, index) => {
-                                            const isExpanded = group.ma_mon === expandedSubject;
-                                            return (
-                                                <>
-                                                    <div key={index} className="mb-3 rounded py-2 subject-item position-relative d-flex justify-content-between align-items-center">
-
-                                                        <div
-                                                            className="d-flex justify-content-between align-items-center cursor-pointer"
-                                                            onClick={() => setExpandedSubject(isExpanded ? null : group.ma_mon)}
-                                                        >
-                                                            <h6 className="mb-0 px-2">{group.ten_mon}</h6>
-                                                            <i
-                                                                className={`fa-solid ${isExpanded ? "fa-plus" : "fa-minus"}`} />
-                                                        </div>
-
-                                                        <div className="subject-group-clear">
-                                                            <i className="fa-solid fa-trash-can"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        {isExpanded && (
-                                                            <div className="mt-2">
-                                                                {group.nhom_to && group.nhom_to.length > 0 ? (
-                                                                    group.nhom_to.map((nt, i) => (
-                                                                        <div key={i} onClick={() => handleCalendarSubject(nt)}>
-                                                                            <SubjectGroup group={nt} />
-                                                                        </div>
-                                                                    ))
-                                                                ) : (
-                                                                    <div className="text-muted fst-italic ps-2">Không có nhóm tổ nào.</div>
-                                                                )}
-                                                            </div>
+                            <div className="subject-list scroll-area">
+                                {showGroupSubject.length > 0 ? (
+                                    showGroupSubject.map((group, index) => {
+                                        const isExpanded = group.ma_mon === expandedSubject;
+                                        return (
+                                            <><div key={index} className="mb-3 rounded py-2 subject-item position-relative d-flex justify-content-between align-items-center">
+                                                <div
+                                                    className="d-flex justify-content-between align-items-center cursor-pointer"
+                                                    onClick={() => setExpandedSubject(isExpanded ? null : group.ma_mon)}>
+                                                    <h6 className="mb-0 px-2">{group.ten_mon}</h6>
+                                                    <i className={`fa-solid ${isExpanded ? "fa-plus" : "fa-minus"}`} />
+                                                </div>
+                                                <div className="subject-group-clear">
+                                                    <i className="fa-solid fa-trash-can" onClick={() => handleClearSubject(group)}></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                {isExpanded && (
+                                                    <div className="mt-2">
+                                                        {group.nhom_to && group.nhom_to.length > 0 ? (
+                                                            group.nhom_to.map((nt, i) => (
+                                                                <div key={i} onClick={() => handleCalendarSubject(nt)}>
+                                                                    <SubjectGroup group={nt} choose={isSelectGroup(nt)} />
+                                                                </div>
+                                                            ))
+                                                        ) : (
+                                                            <div className="text-muted fst-italic ps-2">Không có nhóm tổ nào.</div>
                                                         )}
                                                     </div>
-                                                </>
-                                            );
-                                        })
-                                    ) : (
-                                        <div className="text-muted fst-italic">Không tìm thấy môn học đã chọn nào.</div>
-                                    )}
-                                </div>
-                            </>
+                                                )}
+                                            </div></>
+                                        );
+                                    })
+                                ) : (
+                                    <div className="text-muted fst-italic">Không tìm thấy môn học đã chọn nào.</div>
+                                )}
+                            </div>
+
                         )}
                     </div>
                 </div>
@@ -200,13 +218,10 @@ const SortPage = () => {
                 <div className="col-md-9 sort-page-scheduler">
                     <div className="calendar-box shadow p-3 rounded-3 h-100">
                         <h5 className="mb-3">🗓 Thời khóa biểu</h5>
-                        {choosenSubjects.length === 0 ? (
-                            <div className="text-muted fst-italic">Chưa có môn học nào được chọn.</div>
-                        ) : (
-                            <Calendar calendar={calendar} />
-                        )}
+                        <Calendar calendar={calendar} />
                         <div className="button-box mt-3">
-                            <button type="button" className="btn btn-primary">Tải thời khóa biểu</button>
+                            <button type="button" className="btn btn-primary me-2">Tải thời khóa biểu</button>
+                            <button type="button" className="btn btn-success" onClick={() => resetData()}>Cập nhật danh sách</button>
                         </div>
                     </div>
                 </div>

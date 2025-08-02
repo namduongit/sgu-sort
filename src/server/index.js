@@ -18,5 +18,5 @@ const subject = require("./routes/subject");
 app.use("/api/subject", subject);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://192.168.3.14:${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });

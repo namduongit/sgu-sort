@@ -9,7 +9,6 @@ const RAW_BODY = { "is_CVHT": false, "additional": { "paging": { "limit": 99999,
 // Get subject
 router.post("/subjects", async (req, res) => {
     const { access_token } = req.body;
-    console.log(access_token)
     try {
         const response = await axios.post(
             API_FILTER_SUBJECT,
@@ -24,7 +23,7 @@ router.post("/subjects", async (req, res) => {
         res.json(response.data);
         console.log("Subjects data: ", response.data);
     } catch (error) {
-        console.error("SGU login failed:", error?.response?.data || error.message);
+        console.error("Request subject failed:", error?.response?.data || error.message);
         res.status(500).json({ message: "Get subjects to SGU failed" });
     }
 });

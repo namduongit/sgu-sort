@@ -1,6 +1,6 @@
 import './SubjectGroup.css';
 
-const SubjectGroup = ({ group }) => {
+const SubjectGroup = ({ group, choose }) => {
   const tkbString = group.tkb;
   const hrPath = tkbString.split('<hr>').map(item => item.trim());
   const subjectItems = hrPath.map(item => {
@@ -16,9 +16,14 @@ const SubjectGroup = ({ group }) => {
   const time = [...new Set(uniqueSubjects.map(item => item.day +", "+ item.period))].join(', ');
 
   return (
-    <div className="subject-group-card cursor-pointer">
+    <div className="subject-group-card cursor-pointer" style={{
+      backgroundColor: `${choose ? "#28a745": "white"}`,
+      color: `${choose ? "white" : "black"}`
+    }}>
       <div className="subject-group-header d-flex justify-content-between align-items-center">
-        <h6 className="mb-0 fw-bold text-success">Nhóm tổ: {group.nhom_to}</h6>
+        <h6 className="mb-0 fw-bold" style={{
+          color: `${choose ? "white" : "black"}`
+        }}>Nhóm tổ: {group.nhom_to}</h6>
         <span className="badge bg-dark text-white">Số buổi học: {uniqueSubjects.length}</span>
       </div>
 

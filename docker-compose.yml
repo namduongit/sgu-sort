@@ -1,0 +1,18 @@
+services:
+  backend:
+    container_name: tkb_sort_backend
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: ./docker/backend/Dockerfile
+    ports:
+      - "5000:5000"
+
+  frontend:
+    container_name: tkb_sort_frontend
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: ./docker/frontend/Dockerfile
+    ports:
+      - "3000:3000"

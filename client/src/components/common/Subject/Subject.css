@@ -1,0 +1,22 @@
+.subject-card {
+    background: #fff;
+    padding: 16px;
+    margin-bottom: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    border-left: 6px solid #4d4d4dff;
+    border-radius: 8px
+}
+
+.subject-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.subject-header h5 {
+    font-size: 1.1rem;
+}
+
+.subject-body span {
+    font-size: 0.95rem;
+}

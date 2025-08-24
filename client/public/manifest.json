@@ -1,0 +1,11 @@
+{
+  "short_name": "Sort Calendar schedule of Saigon University",
+  "name": "Website arranging the schedule of Saigon University",
+  "icons": [
+
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

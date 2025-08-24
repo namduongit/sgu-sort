@@ -1,0 +1,25 @@
+.subject-group-card {
+    background: #ffffff;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    border-left: 6px solid #28a745;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.subject-group-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.subject-group-header h6 {
+    font-size: 1.05rem;
+    color: #28a745;
+}
+
+.subject-group-body div {
+    margin-top: 4px;
+    font-size: 0.95rem;
+}

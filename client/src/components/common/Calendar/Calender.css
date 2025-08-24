@@ -1,0 +1,84 @@
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #fff;
+}
+
+thead tr {
+  background-color: #343a40;
+  color: #fff;
+}
+
+thead td {
+  padding: 12px 8px;
+  font-weight: bold;
+}
+
+tbody td {
+  border: 1px solid #dee2e6;
+  padding: 10px 6px;
+  min-height: 50px;
+  vertical-align: middle;
+  word-break: break-word;
+  background-color: #f8f9fa;
+  transition: background-color 0.2s ease-in-out;
+}
+
+tbody tr:nth-child(even) td {
+  background-color: #f1f3f5;
+}
+
+tbody td:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+  table, thead, tbody, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tbody tr {
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  tbody td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    position: relative;
+  }
+
+  tbody td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-align: left;
+    min-width: 100px;
+  }
+}
+
+.calendar-table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+  border: 1px solid #ddd;
+  min-width: 100px;
+  background-color: #f8fafc;
+}
+.calendar-table thead td {
+  background-color: #1e293b;
+  color: white;
+  font-weight: bold;
+}

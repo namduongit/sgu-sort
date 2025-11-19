@@ -48,21 +48,20 @@ const useSubjects = () => {
             return;
         }
 
-        const CURRENT_USER = getLocationToken("CURRENT_USER");
+        // const CURRENT_USER = getLocationToken("CURRENT_USER");
         // Handle token expiry exception
 
-        const access_token = CURRENT_USER?.access_token;
+        // const access_token = CURRENT_USER?.access_token;
 
         async function fetchSubjects() {
-            const result = await subjects(access_token);
-            if (result.code === 200) {
-                result.data.ds_nhom_to = mergeDsNT(result.data);
-                const { ds_mon_hoc, ds_nhom_to } = initID(result.data);
-                result.data.ds_mon_hoc = ds_mon_hoc;
-                result.data.ds_nhom_to = ds_nhom_to;
-                saveLocationToken("CURRENT_SUBJECT", result);
-                setData(result.data || {});
-            }
+            const result = require('./data.json');
+            console.log("Fetched subjects:", result);
+            result.ds_nhom_to = mergeDsNT();
+            const { ds_mon_hoc, ds_nhom_to } = initID(result.data);
+            result.ds_mon_hoc = ds_mon_hoc;
+            result.ds_nhom_to = ds_nhom_to;
+            saveLocationToken("CURRENT_SUBJECT", result);
+            setData(result || {});
             setLoading(false);
         }
 

@@ -60,7 +60,7 @@ const Header = () => {
 
     return (
         <>
-            <div className="header p-3 mb-2 bg-light text-dark">
+            <div className="header p-3 mb-2 bg-light text-dark index">
                 <div className="container d-flex justify-content-between align-items-center">
                     <div className="header-logo">
                         <a href="/" className="header-logo-link">
@@ -72,11 +72,6 @@ const Header = () => {
                         <div className="header-features-item position-relative me-3">
                             <a href="/page/donate">
                                 <p>Đóng góp</p>
-                            </a>
-                        </div>
-                        <div className="header-features-item position-relative me-3">
-                            <a href="/page/contact">
-                                <p>Liên hệ</p>
                             </a>
                         </div>
                         <div className="header-features-item position-relative me-3">
@@ -92,12 +87,6 @@ const Header = () => {
                                     <a href="/feature/sort" className="d-flex align-items-center text-decoration-none text-black mb-2">
                                         <i className="fa-solid fa-filter me-2" />
                                         <p className="m-0">Sắp xếp</p>
-                                    </a>
-                                </li>
-                                <li className="mb-2 header-item">
-                                    <a href="/feature/list" className="d-flex align-items-center text-decoration-none text-black mb-2">
-                                        <i className="fa-solid fa-list me-2" />
-                                        <p className="m-0">Số lượng</p>
                                     </a>
                                 </li>
                             </ul>

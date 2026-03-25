@@ -5,6 +5,8 @@ const BASE_API = process.env.REACT_APP_REQUEST;
 const API_LOGIN_URL = `${BASE_API}/api/auth/login`;
 const API_REFRESH_URL = `${BASE_API}/api/auth/refresh`;
 
+// Old API endpoints - I will delete these after confirming the new ones work
+
 export const login = async (username, password) => {
     try {
         const response = await axios.post(

@@ -1,0 +1,123 @@
+.list-page {
+  min-height: 100vh;
+  background: radial-gradient(circle at 20% 20%, rgba(13, 110, 253, 0.08), transparent 35%),
+    radial-gradient(circle at 80% 0%, rgba(25, 135, 84, 0.08), transparent 30%),
+    linear-gradient(180deg, #f8fbff 0%, #f5f7fb 100%);
+}
+
+.list-hero {
+  background: #ffffff;
+  border: 1px solid #e8edf3;
+}
+
+.list-bubble {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.4;
+}
+
+.bubble-1 {
+  width: 220px;
+  height: 220px;
+  background: linear-gradient(135deg, #0d6efd, #6ea8fe);
+  top: -80px;
+  right: -60px;
+}
+
+.bubble-2 {
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(135deg, #198754, #63d7a6);
+  bottom: -60px;
+  left: -40px;
+}
+
+.list-illustration {
+  position: relative;
+  max-width: 320px;
+}
+
+.list-chip {
+  display: inline-block;
+  background: #f1f5f9;
+  color: #0a2a5e;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  margin-bottom: 14px;
+}
+
+.list-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 18px 20px;
+  border: 1px solid #e8edf3;
+}
+
+.list-card.feature {
+  height: 100%;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.list-card.feature:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+}
+
+.list-card .list-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed #e5eaf2;
+}
+
+.list-card .list-row:last-child {
+  border-bottom: none;
+}
+
+.icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #f1f5f9;
+  display: grid;
+  place-items: center;
+  color: #0d6efd;
+  font-size: 1.1rem;
+}
+
+.list-steps {
+  background: #ffffff;
+  border: 1px solid #e8edf3;
+}
+
+.step-item {
+  background: #f8fbff;
+  border: 1px solid #e8edf3;
+  border-radius: 14px;
+  padding: 16px;
+  height: 100%;
+}
+
+.step-number {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #0d6efd;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767.98px) {
+  .list-hero {
+    padding: 28px 22px;
+  }
+}

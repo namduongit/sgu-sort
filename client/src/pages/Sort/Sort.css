@@ -1,12 +1,25 @@
 .sort-page {
-    background-color: #f9fafb;
+    background: radial-gradient(circle at 20% 20%, rgba(13, 110, 253, 0.08), transparent 35%),
+        radial-gradient(circle at 80% 0%, rgba(25, 135, 84, 0.08), transparent 30%),
+        linear-gradient(180deg, #f8fbff 0%, #f5f7fb 100%);
     min-height: 100vh;
+}
+
+.sort-page-hero {
+    background: #ffffff;
+    border: 1px solid #e8edf3;
+}
+
+.sort-page-hero h2 {
+    color: #0a2a5e;
 }
 
 .sort-box,
 .calendar-box {
     background-color: #fff;
     transition: all 0.3s ease;
+    border: 1px solid #e8edf3;
+    border-radius: 14px;
 }
 
 .cursor-pointer {
@@ -48,7 +61,7 @@
     background-color: white;
     padding: 0.75rem 1rem;
     border: 1px solid #dee2e6;
-    border-radius: 10px;
+    border-radius: 12px;
     transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
@@ -108,6 +121,10 @@
 /* Màn hình rất nhỏ (điện thoại) */
 @media (max-width: 575.98px) {
     /* CSS ở đây áp dụng cho xs */
+    .sort-page {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
 }
 
 /* Nhỏ (sm) */

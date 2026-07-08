@@ -1,6 +1,6 @@
 import SunnyIcon from '@mui/icons-material/Sunny';
 import NightsStayIcon from '@mui/icons-material/NightsStay';
-import { Calendar } from '../page/time-table/page';
+import { Calendar } from '../type';
 
 type TimeTableProps = {
     calendar: Calendar[][];

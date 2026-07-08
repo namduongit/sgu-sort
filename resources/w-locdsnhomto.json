@@ -1,0 +1,4751 @@
+{
+	"loai_hien_thi_tuan": 0,
+	"is_merge_to_hoc": false,
+	"is_bb_chon_nhomto": false,
+	"data": {
+		"total_items": 80,
+		"total_pages": 1,
+		"dien_giai_enable_chung": "Ngoài thời gian cho phép đăng ký",
+		"ghi_chu_dkmh": "",
+		"trong_thoi_gian_dang_ky": false,
+		"trong_thoi_gian_duyet_kqdk": false,
+		"hien_cot_tach_phieu_nop_tien": false,
+		"addin_duyet_kqdk": true,
+		"hien_cot_hoc_phi": false,
+		"hien_cot_ma_lop": true,
+		"hien_cot_so_luong": true,
+		"hien_thi_cot_lich_thi": false,
+		"hoc_ky_dang_ky": "Học kỳ 3 - Năm học 2025 - 2026",
+		"is_show_tietbd": false,
+		"is_merge_dong_tkbhk": false,
+		"ds_khoa": [
+			{
+				"ma": "TDTU",
+				"ten": "(ngành) Toán ứng dụng"
+			},
+			{
+				"ma": "QD",
+				"ten": "Khoa Quản trị Kinh doanh"
+			},
+			{
+				"ma": "QPQP",
+				"ten": "Giáo dục QP - An ninh"
+			},
+			{
+				"ma": "NNSA",
+				"ten": "(ngành) SP Tiếng Anh"
+			},
+			{
+				"ma": "LULU",
+				"ten": "(ngành) Luật"
+			},
+			{
+				"ma": "NN",
+				"ten": "Khoa Ngoại ngữ"
+			},
+			{
+				"ma": "TEKE",
+				"ten": "(ngành) Kế toán"
+			},
+			{
+				"ma": "TEKI",
+				"ten": "(ngành) Kiểm toán"
+			},
+			{
+				"ma": "TE",
+				"ten": "Khoa Tài chính - Kế toán"
+			},
+			{
+				"ma": "QPTC",
+				"ten": "Giáo dục Thể chất"
+			},
+			{
+				"ma": "QD_084",
+				"ten": "(Bộ môn) Quản trị kinh doanh"
+			},
+			{
+				"ma": "QDQK",
+				"ten": "(ngành) Quản trị kinh doanh"
+			},
+			{
+				"ma": "LCLC",
+				"ten": "Giáo dục Chính trị (môn chung)"
+			},
+			{
+				"ma": "CTCT",
+				"ten": "(ngành) Công nghệ thông tin"
+			},
+			{
+				"ma": "NNNN",
+				"ten": "Ngoại ngữ (môn chung)"
+			},
+			{
+				"ma": "NNSA",
+				"ten": "(ngành) SP Tiếng Anh"
+			},
+			{
+				"ma": "TTQV",
+				"ten": "(ngành) Quản trị văn phòng"
+			},
+			{
+				"ma": "TT_078",
+				"ten": "(Bộ môn) Quản trị văn phòng"
+			},
+			{
+				"ma": "NNAN",
+				"ten": "(ngành) Ngôn ngữ Anh (Thương mại và Du lịch)"
+			},
+			{
+				"ma": "NN_071",
+				"ten": "(Bộ môn) Tiếng Anh không chuyên"
+			},
+			{
+				"ma": "QDHA",
+				"ten": "(ngành) Quản trị nhà hàng và dịch vụ ăn uống"
+			},
+			{
+				"ma": "TE_089",
+				"ten": "(Bộ môn) Kế toán"
+			},
+			{
+				"ma": "NNTA",
+				"ten": "(ngành) Tiếng Anh (Thương mại và du lịch)"
+			},
+			{
+				"ma": "TETN",
+				"ten": "(ngành) Tài chính - Ngân hàng"
+			},
+			{
+				"ma": "TEKE",
+				"ten": "(ngành) Kế toán"
+			},
+			{
+				"ma": "QDKQ",
+				"ten": "(ngành) Kinh doanh quốc tế"
+			},
+			{
+				"ma": "TTTK",
+				"ten": "(ngành) Thư ký văn phòng"
+			},
+			{
+				"ma": "TEKI",
+				"ten": "(ngành) Kiểm toán"
+			},
+			{
+				"ma": "TE_115",
+				"ten": "(Bộ môn) Ngân hàng"
+			},
+			{
+				"ma": "TE_091",
+				"ten": "(VP khoa) Khoa Tài chính - Kế toán"
+			},
+			{
+				"ma": "TE_090",
+				"ten": "(Bộ môn) Tài chính"
+			},
+			{
+				"ma": "NNSP",
+				"ten": "(ngành) SP Tiếng Pháp"
+			},
+			{
+				"ma": "NN_072",
+				"ten": "(VP khoa) Khoa Ngoại ngữ"
+			},
+			{
+				"ma": "NN_069",
+				"ten": "(Bộ môn) Ngôn ngữ Anh"
+			},
+			{
+				"ma": "QD_084",
+				"ten": "(Bộ môn) Quản trị kinh doanh"
+			},
+			{
+				"ma": "QD_083",
+				"ten": "(Bộ môn) Kinh doanh quốc tế"
+			},
+			{
+				"ma": "QDQK",
+				"ten": "(ngành) Quản trị kinh doanh"
+			},
+			{
+				"ma": "NN_070",
+				"ten": "(Bộ môn) Sư phạm tiếng Anh"
+			}
+		],
+		"ds_lop": [
+			{
+				"ma": "DQK125C2",
+				"ten": "ĐH chính quy - ngành Quản trị kinh doanh (CLC) - K.25 - Lớp 2"
+			},
+			{
+				"ma": "DQK125C1",
+				"ten": "ĐH chính quy - ngành Quản trị kinh doanh (CLC) - K.25 - Lớp 1"
+			},
+			{
+				"ma": "DCT125C1",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.25 - Lớp 1"
+			},
+			{
+				"ma": "DKE124C1",
+				"ten": "ĐH chính quy - ngành Kế toán (CLC) - K.24 - Lớp 1"
+			},
+			{
+				"ma": "DAN125C2",
+				"ten": "ĐH chính quy - ngành Ngôn ngữ Anh (CLC) - K.25 - Lớp 2"
+			},
+			{
+				"ma": "DAN125C1",
+				"ten": "ĐH chính quy - ngành Ngôn ngữ Anh (CLC) - K.25 - Lớp 1"
+			},
+			{
+				"ma": "DQK124C1",
+				"ten": "ĐH chính quy - ngành Quản trị kinh doanh (CLC) - K.24 - Lớp 1"
+			},
+			{
+				"ma": "DAN124C1",
+				"ten": "ĐH chính quy - ngành Ngôn ngữ Anh (CLC) - K.24 - Lớp 1"
+			},
+			{
+				"ma": "DKE125C1",
+				"ten": "ĐH chính quy - ngành Kế toán (CLC) - K.25 - Lớp 1"
+			},
+			{
+				"ma": "DCT124C5",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.24 - Lớp 5"
+			},
+			{
+				"ma": "DCT124C2",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.24 - Lớp 2"
+			},
+			{
+				"ma": "DCT124C7",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.24 - Lớp 7"
+			},
+			{
+				"ma": "DCT124C4",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.24 - Lớp 4"
+			},
+			{
+				"ma": "DCT124C6",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.24 - Lớp 6"
+			},
+			{
+				"ma": "DCT124C3",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.24 - Lớp 3"
+			},
+			{
+				"ma": "DCT124C1",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.24 - Lớp 1"
+			},
+			{
+				"ma": "DCT123C3",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.23 - Lớp 3"
+			},
+			{
+				"ma": "DCT123C6",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.23 - Lớp 6"
+			},
+			{
+				"ma": "DCT123C5",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.23 - Lớp 5"
+			},
+			{
+				"ma": "DCT123C1",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.23 - Lớp 1"
+			},
+			{
+				"ma": "DCT123C2",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.23 - Lớp 2"
+			},
+			{
+				"ma": "DCT123C4",
+				"ten": "ĐH chính quy - ngành Công nghệ thông tin (CLC) - K.23 - Lớp 4"
+			},
+			{
+				"ma": "*",
+				"ten": "Lớp chung"
+			}
+		],
+		"ds_mon_hoc": [
+			{
+				"ma": "865002",
+				"ten": "Cơ sở văn hóa Việt Nam",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "810507",
+				"ten": "Lịch sử thế giới hiện đại"
+			},
+			{
+				"ma": "864007",
+				"ten": "Đại số tuyến tính",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "810509",
+				"ten": "Phương pháp nghiên cứu khoa học lịch sử"
+			},
+			{
+				"ma": "822509",
+				"ten": "Ứng dụng Công nghệ thông tin và sử dụng Đồ dùng trực quan trong dạy học Lịch sử - Địa lí"
+			},
+			{
+				"ma": "806404",
+				"ten": "Sinh lý học thực vật"
+			},
+			{
+				"ma": "817407",
+				"ten": "Hình họa 2"
+			},
+			{
+				"ma": "841453",
+				"ten": "Phân tích và nhận dạng mẫu"
+			},
+			{
+				"ma": "809315",
+				"ten": "Văn bản Hán - Nôm trong văn học Việt Nam theo thể loại"
+			},
+			{
+				"ma": "857434",
+				"ten": "Quản lý ẩm thực"
+			},
+			{
+				"ma": "867508",
+				"ten": "Toán cao cấp C2"
+			},
+			{
+				"ma": "873507",
+				"ten": "Bảo tàng học ứng dụng"
+			},
+			{
+				"ma": "801416",
+				"ten": "Phương pháp dạy học môn Toán II"
+			},
+			{
+				"ma": "832057",
+				"ten": "Kế toán Mỹ",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "867511",
+				"ten": "Kinh tế lượng"
+			},
+			{
+				"ma": "834307",
+				"ten": "Kỹ thuật phân tích môi trường"
+			},
+			{
+				"ma": "835105",
+				"ten": "Tâm lý - giao tiếp du lịch",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "839409",
+				"ten": "Tự động hóa thư viện"
+			},
+			{
+				"ma": "871516",
+				"ten": "Những vấn đề kế toán đương đại"
+			},
+			{
+				"ma": "861303",
+				"ten": "Chủ nghĩa xã hội khoa học"
+			},
+			{
+				"ma": "816419",
+				"ten": "Nhạc cụ 2 (Guitar)"
+			},
+			{
+				"ma": "865508",
+				"ten": "Thống kê trong Khoa học xã hội"
+			},
+			{
+				"ma": "834437",
+				"ten": "Sử dụng đất ngập nước xử lý ô nhiễm"
+			},
+			{
+				"ma": "820346",
+				"ten": "Tư tưởng Hồ Chí Minh (GDCT)"
+			},
+			{
+				"ma": "811409",
+				"ten": "Thực tế chuyên môn 1 (DDI)"
+			},
+			{
+				"ma": "833029",
+				"ten": "Quản trị tài chính",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "841058",
+				"ten": "Hệ điều hành mã nguồn mở",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "834449",
+				"ten": "Thực tập tốt nghiệp (DCM)"
+			},
+			{
+				"ma": "820510",
+				"ten": "Thiết kế và tổ chức hoạt động dạy học môn Giáo dục kinh tế và pháp luật"
+			},
+			{
+				"ma": "815023",
+				"ten": "Kiểm tra đánh giá kết quả giáo dục ở Tiểu học",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "821408",
+				"ten": "Thí nghiệm cơ sở vật lí "
+			},
+			{
+				"ma": "861302",
+				"ten": "Kinh tế chính trị Mác - Lênin"
+			},
+			{
+				"ma": "839021",
+				"ten": "Thư mục học",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "819503",
+				"ten": "Thể dục nhịp điệu cho trẻ mầm non"
+			},
+			{
+				"ma": "866402",
+				"ten": "Tiếng Anh 2"
+			},
+			{
+				"ma": "801405",
+				"ten": "PPNC khoa học ngành Sư phạm Toán học"
+			},
+			{
+				"ma": "841070",
+				"ten": "Thực tập tốt nghiệp (DCT)",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "821503",
+				"ten": "Phương pháp dạy học môn KHTN"
+			},
+			{
+				"ma": "834462",
+				"ten": "Thực tập tốt nghiệp (DKM)"
+			},
+			{
+				"ma": "832501",
+				"ten": "Principle of Marketing"
+			},
+			{
+				"ma": "832060",
+				"ten": "P/tích b/cáo tài chính doanh nghiệp",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "817411",
+				"ten": "Luật xa gần"
+			},
+			{
+				"ma": "817506",
+				"ten": "Tổ chức hoạt động dạy học môn mỹ thuật ở trường phổ thông 1"
+			},
+			{
+				"ma": "861301",
+				"ten": "Triết học Mác - Lênin"
+			},
+			{
+				"ma": "BOCH11",
+				"ten": "Bóng chuyền 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "862101",
+				"ten": "Giáo dục thể chất (I)",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "813307",
+				"ten": "Kĩ năng nói trước công chúng"
+			},
+			{
+				"ma": "853504",
+				"ten": "Tâm lý học tôn giáo"
+			},
+			{
+				"ma": "842025",
+				"ten": "Anh văn tài chính ngân hàng",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "835103",
+				"ten": "Địa lý du lịch Việt Nam",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "843504",
+				"ten": "Kỹ thuật xây dựng văn bản pháp luật"
+			},
+			{
+				"ma": "855503",
+				"ten": "Marketing quốc tế"
+			},
+			{
+				"ma": "846502",
+				"ten": "Quản lý sự thay đổi trong giáo dục"
+			},
+			{
+				"ma": "857509",
+				"ten": "Kinh tế Du lịch"
+			},
+			{
+				"ma": "820507",
+				"ten": "Lý luận và phương pháp dạy học bộ môn 2"
+			},
+			{
+				"ma": "867001",
+				"ten": "Nguyên lý thống kê kinh tế",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "838304",
+				"ten": "Thư tín thương mại"
+			},
+			{
+				"ma": "849498",
+				"ten": "Thực tập tốt nghiệp (DDE)"
+			},
+			{
+				"ma": "850038",
+				"ten": "Đo lường cảm biến và điều khiển dùng máy tính",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "863412",
+				"ten": "Quản lý HCNN & quản lý ngành GD-ĐT (trường trung học)"
+			},
+			{
+				"ma": "BORO11",
+				"ten": "Bóng rổ 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "809308",
+				"ten": "Hệ thống thể loại và tác giả tiêu biểu Văn học Việt Nam hiện đại 1900 - 1945"
+			},
+			{
+				"ma": "859411",
+				"ten": "Tiếng Anh chuyên ngành nhà hàng và dịch vụ ăn uống"
+			},
+			{
+				"ma": "813418",
+				"ten": "Phương pháp dạy học tiếng Anh 3"
+			},
+			{
+				"ma": "832026",
+				"ten": "Thuế (ngành Kế toán, ngành TC ngân hàng)",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "CALO11",
+				"ten": "Cầu lông 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "817504",
+				"ten": "Kí họa thực tế 1"
+			},
+			{
+				"ma": "871505",
+				"ten": "Tiếng Anh chuyên ngành Kế toán - Kiểm toán"
+			},
+			{
+				"ma": "849013",
+				"ten": "Giải tích hệ thống điện",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "832025",
+				"ten": "AV chuyên ngành kế toán",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "821404",
+				"ten": "Cơ sở vật lý 1"
+			},
+			{
+				"ma": "838510",
+				"ten": "Quản trị trong nhà hàng khách sạn (ngành Ngôn ngữ Anh)"
+			},
+			{
+				"ma": "813033",
+				"ten": "Ngữ nghĩa học",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "841312",
+				"ten": "Tiếng Anh B1 - 2"
+			},
+			{
+				"ma": "866401",
+				"ten": "Tiếng Anh 1"
+			},
+			{
+				"ma": "822314",
+				"ten": "Địa lí tự nhiên Việt Nam"
+			},
+			{
+				"ma": "820482",
+				"ten": "Giáo dục kinh tế 2"
+			},
+			{
+				"ma": "834502",
+				"ten": "Đánh giá tác động và rủi ro môi trường"
+			},
+			{
+				"ma": "CALO12",
+				"ten": "Cầu lông 2",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "806501",
+				"ten": "Sinh thái học và môi trường"
+			},
+			{
+				"ma": "834315",
+				"ten": "Luật và chính sách môi trường"
+			},
+			{
+				"ma": "848035",
+				"ten": "Các nguyên lý thống kê",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "816429",
+				"ten": "Thanh nhạc 5"
+			},
+			{
+				"ma": "846302",
+				"ten": "Hệ thống giáo dục quốc dân và bộ máy QLGD"
+			},
+			{
+				"ma": "838504",
+				"ten": "Thường thức mỹ thuật"
+			},
+			{
+				"ma": "803107",
+				"ten": "Thực hành hóa phân tích định tính",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "867510",
+				"ten": "Xác suất và nguyên lý thống kê kinh tế"
+			},
+			{
+				"ma": "850404",
+				"ten": "Tiếng Anh chuyên ngành"
+			},
+			{
+				"ma": "865006",
+				"ten": "Pháp luật đại cương",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "850324",
+				"ten": "Kỹ thuật IoT"
+			},
+			{
+				"ma": "816426",
+				"ten": "Thanh nhạc 2"
+			},
+			{
+				"ma": "819413",
+				"ten": "PPNC khoa học giáo dục mầm non"
+			},
+			{
+				"ma": "803416",
+				"ten": "Kiểm tra đánh giá trong dạy học hóa học THPT"
+			},
+			{
+				"ma": "802502",
+				"ten": "Phát triển chương trình vật lý THPT"
+			},
+			{
+				"ma": "813427",
+				"ten": "Tiếng Trung nâng cao"
+			},
+			{
+				"ma": "819504",
+				"ten": "Lý luận dạy học mầm non hiện đại"
+			},
+			{
+				"ma": "833312",
+				"ten": "Tâm lý học quản trị kinh doanh"
+			},
+			{
+				"ma": "853506",
+				"ten": "Kỹ năng tư duy phản biện"
+			},
+			{
+				"ma": "809422",
+				"ten": "Phát triển năng lực cho học sinh trong dạy học Ngữ văn"
+			},
+			{
+				"ma": "862407",
+				"ten": "Giáo dục quốc phòng và an ninh II"
+			},
+			{
+				"ma": "857510",
+				"ten": "Hệ thống di tích lịch sử - văn hóa và danh thắng Việt Nam"
+			},
+			{
+				"ma": "851504",
+				"ten": "Thực hành xưởng điện tử"
+			},
+			{
+				"ma": "BOCH12",
+				"ten": "Bóng chuyền 2",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "832107",
+				"ten": "Lý thuyết tài chính tiền tệ",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "BORO12",
+				"ten": "Bóng rổ 2",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "867007",
+				"ten": "Toán cao cấp C1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "853009",
+				"ten": "Tâm lí học nhân cách",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "834438",
+				"ten": "Kỹ thuật lò đốt chất thải"
+			},
+			{
+				"ma": "854502",
+				"ten": "Kỹ năng nói trước công chúng (ngành Quốc tế học)"
+			},
+			{
+				"ma": "852498",
+				"ten": "Thực tập tốt nghiệp (DDV) (DCV)"
+			},
+			{
+				"ma": "866403",
+				"ten": "Tiếng Anh 3"
+			},
+			{
+				"ma": "839307",
+				"ten": "Xuất bản điện tử"
+			},
+			{
+				"ma": "843406",
+				"ten": "Luật Dân sự 2 - Tài sản, sở hữu và thừa kế tài sản"
+			},
+			{
+				"ma": "833508",
+				"ten": "Báo cáo chuyên đề"
+			},
+			{
+				"ma": "801506",
+				"ten": "Rèn luyện nghiệp vụ sư phạm thường xuyên"
+			},
+			{
+				"ma": "801351",
+				"ten": "Phương pháp nghiên cứu khoa học trong ngành Toán"
+			},
+			{
+				"ma": "842009",
+				"ten": "Hệ thống thông tin ngân hàng",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "819409",
+				"ten": "Dàn dựng chương trình văn nghệ cho trẻ mầm non"
+			},
+			{
+				"ma": "BOBA11",
+				"ten": "Bóng bàn 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "802503",
+				"ten": "Thực hành sư phạm THPT 1"
+			},
+			{
+				"ma": "867002",
+				"ten": "Nguyên lý kế toán",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "813410",
+				"ten": "Đọc - Viết 3"
+			},
+			{
+				"ma": "843056",
+				"ten": "Pháp luật về công chứng, chứng thực",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "850420",
+				"ten": "Xử lý số tín hiệu"
+			},
+			{
+				"ma": "862409",
+				"ten": "Giáo dục quốc phòng và an ninh IV"
+			},
+			{
+				"ma": "864001",
+				"ten": "Xác suất thống kê A",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "833355",
+				"ten": "Tiếng Anh chuyên ngành 3 (ngành KD quốc tế)"
+			},
+			{
+				"ma": "821502",
+				"ten": "Sinh học đại cương"
+			},
+			{
+				"ma": "815501",
+				"ten": "Tâm lý học tiểu học"
+			},
+			{
+				"ma": "867005",
+				"ten": "Quản trị nguồn nhân lực",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "810411",
+				"ten": "Lịch sử Việt Nam từ 1945 đến nay"
+			},
+			{
+				"ma": "832301",
+				"ten": "Marketing căn bản (ngành Kế toán, ngành Tài chính Ngân hàng)"
+			},
+			{
+				"ma": "833056",
+				"ten": "Quản trị sản xuất",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "813406",
+				"ten": "Nghe - Nói 3"
+			},
+			{
+				"ma": "859403",
+				"ten": "Quản trị dịch vụ, nhà hàng"
+			},
+			{
+				"ma": "815508",
+				"ten": "Giáo dục nghệ thuật 1 (Âm nhạc)"
+			},
+			{
+				"ma": "850419",
+				"ten": "Lý thuyết thông tin"
+			},
+			{
+				"ma": "833075",
+				"ten": "Nghệ thuật lãnh đạo",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "850413",
+				"ten": "Hệ thống nhúng"
+			},
+			{
+				"ma": "834304",
+				"ten": "Vi sinh môi trường"
+			},
+			{
+				"ma": "842501",
+				"ten": "Công nghệ ngân hàng (TC)"
+			},
+			{
+				"ma": "811078",
+				"ten": "Thực hành sư phạm 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "BODA11",
+				"ten": "Bóng đá 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "858007",
+				"ten": "Kinh tế học đại cương (ngành Khoa học dữ liệu)"
+			},
+			{
+				"ma": "863013",
+				"ten": "Công tác đội TNTP HCM",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "846508",
+				"ten": "Nghiệp vụ công tác hành chính văn phòng cơ sở giáo dục"
+			},
+			{
+				"ma": "841422",
+				"ten": "Ngôn ngữ lập trình Python"
+			},
+			{
+				"ma": "815322",
+				"ten": "Ứng dụng CNTT trong dạy học ở Tiểu học"
+			},
+			{
+				"ma": "809306",
+				"ten": "Khuynh hướng văn học và loại hình tác giả văn học trung đại Việt Nam"
+			},
+			{
+				"ma": "834436",
+				"ten": "Kiểm soát và xử lý ô nhiễm đất"
+			},
+			{
+				"ma": "864006",
+				"ten": "Giải tích 2",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "838098",
+				"ten": "Thực tập tốt nghiệp (DTA) (DAN)",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "872502",
+				"ten": "Hệ điều hành và mạng máy tính"
+			},
+			{
+				"ma": "862408",
+				"ten": "Giáo dục quốc phòng và an ninh III"
+			},
+			{
+				"ma": "841109",
+				"ten": "Cơ sở dữ liệu",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "867009",
+				"ten": "Quản trị học"
+			},
+			{
+				"ma": "854520",
+				"ten": "Kỹ năng biên dịch (ngành Quốc tế học)"
+			},
+			{
+				"ma": "851498",
+				"ten": "Thực tập tốt nghiệp (DKD)"
+			},
+			{
+				"ma": "865003",
+				"ten": "Lịch sử văn minh Thế giới",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "833513",
+				"ten": "Hành vi tổ chức (ENG)"
+			},
+			{
+				"ma": "809311",
+				"ten": "Ngữ pháp tiếng Việt từ lí thuyết đến sử dụng"
+			},
+			{
+				"ma": "809064",
+				"ten": "Thực tế chuyên môn (DVA)",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "854024",
+				"ten": "Quan hệ quốc tế Châu Á – Thái Bình Dương"
+			},
+			{
+				"ma": "833313",
+				"ten": "Giao tiếp trong kinh doanh"
+			},
+			{
+				"ma": "836510",
+				"ten": "Thực tập chuyên ngành (DQV)"
+			},
+			{
+				"ma": "864508",
+				"ten": "Xác suất thống kê"
+			},
+			{
+				"ma": "801504",
+				"ten": "Giải tích hàm biến thực III"
+			},
+			{
+				"ma": "816433",
+				"ten": "Ký xướng âm 3"
+			},
+			{
+				"ma": "867003",
+				"ten": "Pháp luật kinh doanh",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "803124",
+				"ten": "Thực hành sư phạm THPT 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "801505",
+				"ten": "Độ đo tích phân"
+			},
+			{
+				"ma": "861304",
+				"ten": "Tư tưởng Hồ Chí Minh"
+			},
+			{
+				"ma": "842008",
+				"ten": "Hệ thống thông tin tài chính",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "835312",
+				"ten": "Phong tục - Tín ngưỡng - Tôn giáo Việt Nam"
+			},
+			{
+				"ma": "842301",
+				"ten": "Kế toán tài chính"
+			},
+			{
+				"ma": "841022",
+				"ten": "Hệ điều hành",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "839414",
+				"ten": "Thực tập nghiệp vụ (DTT)"
+			},
+			{
+				"ma": "817055",
+				"ten": "Hình họa 4",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "832111",
+				"ten": "Kế toán hành chính sự nghiệp",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "859422",
+				"ten": "Quản trị chất lượng dịch vụ"
+			},
+			{
+				"ma": "861305",
+				"ten": "Lịch sử Đảng Cộng sản Việt Nam"
+			},
+			{
+				"ma": "819402",
+				"ten": "Âm nhạc mầm non"
+			},
+			{
+				"ma": "813428",
+				"ten": "Tiếng Pháp nâng cao"
+			},
+			{
+				"ma": "867006",
+				"ten": "Quy hoạch tuyến tính",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "822511",
+				"ten": "Phương pháp nghiên cứu khoa học Lịch sử và Địa lí"
+			},
+			{
+				"ma": "835322",
+				"ten": "Tuyến điểm du lịch Việt Nam"
+			},
+			{
+				"ma": "857443",
+				"ten": "Kỹ năng bán hàng và chăm sóc khách hàng (ngành Du lịch)"
+			},
+			{
+				"ma": "843417",
+				"ten": "Kỹ năng xác lập, thực hiện và giải quyết tranh chấp hợp đồng"
+			},
+			{
+				"ma": "806023",
+				"ten": "PPDH Sinh học THPT 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "833502",
+				"ten": "Ứng dụng công nghệ thông tin trong kinh doanh"
+			},
+			{
+				"ma": "815315",
+				"ten": "PPDH Toán 2"
+			},
+			{
+				"ma": "850439",
+				"ten": "Thực hành vi điều khiển"
+			},
+			{
+				"ma": "841423",
+				"ten": "Ngôn ngữ lập trình C#"
+			},
+			{
+				"ma": "842059",
+				"ten": "Quản trị rủi ro tài chính",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "816422",
+				"ten": "Nhạc cụ 5"
+			},
+			{
+				"ma": "864005",
+				"ten": "Giải tích 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "862406",
+				"ten": "Giáo dục quốc phòng và an ninh I"
+			},
+			{
+				"ma": "833365",
+				"ten": "Quản trị rủi ro trong kinh doanh quốc tế"
+			},
+			{
+				"ma": "874504",
+				"ten": "Ứng dụng Công nghệ thông tin trong nghề nghiệp"
+			},
+			{
+				"ma": "838505",
+				"ten": "Giao tiếp trong thời đại kỹ thuật số"
+			},
+			{
+				"ma": "850407",
+				"ten": "Linh kiện và mạch điện tử 2"
+			},
+			{
+				"ma": "848033",
+				"ten": "Nhập môn mô hình toán kinh tế",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "833504",
+				"ten": "Đạo đức kinh doanh và văn hóa doanh nghiệp"
+			},
+			{
+				"ma": "BODA12",
+				"ten": "Bóng đá 2",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "846303",
+				"ten": "Quản lí HCNN & quản lí ngành GD-ĐT (ngành QLGD)",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "834471",
+				"ten": "Sinh thái môi trường và đa dạng sinh học"
+			},
+			{
+				"ma": "817503",
+				"ten": "Nghệ thuật đa phương tiện"
+			},
+			{
+				"ma": "835120",
+				"ten": "Thực tế Việt Nam 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "822319",
+				"ten": "Thực tế chuyên môn 1 (DLD)"
+			},
+			{
+				"ma": "842502",
+				"ten": "Công nghệ tài chính"
+			},
+			{
+				"ma": "859401",
+				"ten": "Quản trị nguồn nhân lực trong lĩnh vực nhà hàng và dịch vụ ăn uống"
+			},
+			{
+				"ma": "863408",
+				"ten": "Tổ chức HĐ dạy học & GD ở trường trung học"
+			},
+			{
+				"ma": "810421",
+				"ten": "Hệ thống phương pháp và các hình thức tổ chức dạy học Lịch sử"
+			},
+			{
+				"ma": "811057",
+				"ten": "Địa lý tự nhiên Việt Nam 1",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "854513",
+				"ten": "Tiếng Anh chuyên ngành 1 (ngành Quốc tế học)"
+			},
+			{
+				"ma": "809450",
+				"ten": "Văn học và phương ngữ Nam bộ"
+			},
+			{
+				"ma": "865005",
+				"ten": "Logic học",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "858011",
+				"ten": "Phương pháp lập trình hướng đối tượng (ngành Khoa học dữ liệu)"
+			},
+			{
+				"ma": "848011",
+				"ten": "Thống kê ứng dụng",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "832112",
+				"ten": "Kế toán ngân hàng thương mại",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "BOBA12",
+				"ten": "Bóng bàn 2",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "803106",
+				"ten": "Hóa phân tích 2",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "853008",
+				"ten": "Tâm lí học phát triển",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "854336",
+				"ten": "Phương pháp NCKH ngành Quốc tế học"
+			},
+			{
+				"ma": "811407",
+				"ten": "Địa lí kinh tế - xã hội thế giới 2"
+			},
+			{
+				"ma": "834217",
+				"ten": "Kỹ thuật xử lý khí thải",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "843049",
+				"ten": "Pháp luật về An sinh xã hội",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "802024",
+				"ten": "Quang học",
+				"ten_eg": "                              "
+			},
+			{
+				"ma": "834415",
+				"ten": "Phương pháp nghiên cứu khoa học trong môi trường"
+			},
+			{
+				"ma": "813313",
+				"ten": "Lý luận dạy học tiếng Anh 2"
+			}
+		],
+		"ds_nhom_to": [
+			{
+				"id_to_hoc": "-7252192372779969302",
+				"id_mon": "-7963679990284327206",
+				"ma_mon": "813033",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "DAN124C1",
+				"ds_lop": [
+					"DAN124C1"
+				],
+				"ds_khoa": [
+					"NNSA"
+				],
+				"is_kdk": false,
+				"sl_dk": 46,
+				"sl_cp": 50,
+				"sl_cl": 4,
+				"tkb": "Thứ 2,tiết 1->4,Ph C.E205,GV Bùi Diễm Hạnh,18/05/26 đến 22/06/26<hr>Thứ 3,tiết 1->4,Ph C.E403,GV Bùi Diễm Hạnh,19/05/26 đến 23/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8365404928329612293",
+				"id_mon": "-7468896236756179935",
+				"ma_mon": "813427",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "*",
+				"ds_lop": [
+					"*"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 76,
+				"sl_cp": 75,
+				"sl_cl": 0,
+				"tkb": "Thứ 3,tiết 11->13,Ph C.E302,GV Lý Văn Hà,16/06/26 đến 14/07/26<hr>Thứ 4,tiết 11->13,Ph C.E302,GV Lý Văn Hà,17/06/26 đến 15/07/26<hr>Thứ 5,tiết 11->13,Ph C.E302,GV Lý Văn Hà,18/06/26 đến 16/07/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4859146296918701400",
+				"id_mon": "-5798291893719853989",
+				"ma_mon": "813428",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "*",
+				"ds_lop": [
+					"*"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 54,
+				"sl_cp": 65,
+				"sl_cl": 11,
+				"tkb": "Thứ 2,tiết 11->13,Ph C.E302,GV Huỳnh Ngọc Trang,15/06/26 đến 20/07/26<hr>Thứ 7,tiết 1->5,Ph C.E302,GV Huỳnh Ngọc Trang,20/06/26 đến 25/07/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6707912122462588243",
+				"id_mon": "-8416848943478279586",
+				"ma_mon": "832501",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "DKE124C1",
+				"ds_lop": [
+					"DKE124C1"
+				],
+				"ds_khoa": [
+					"TE"
+				],
+				"is_kdk": false,
+				"sl_dk": 45,
+				"sl_cp": 55,
+				"sl_cl": 10,
+				"tkb": "Thứ 2,tiết 6->7,Ph 1.A301,GV Lê Nguyễn Bình Minh,04/05/26 đến 18/05/26<hr>Thứ 2,tiết 6->7,Ph 1.A301,GV Lê Nguyễn Bình Minh,08/06/26 đến 22/06/26<hr>Thứ 3,tiết 3->5,Ph 1.A301,GV Lê Nguyễn Bình Minh,05/05/26 đến 19/05/26<hr>Thứ 3,tiết 3->5,Ph 1.A301,GV Lê Nguyễn Bình Minh,09/06/26 đến 23/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7201429395923114766",
+				"id_mon": "-6716434134625785592",
+				"ma_mon": "833056",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "DQK124C1",
+				"ds_lop": [
+					"DQK124C1"
+				],
+				"ds_khoa": [
+					"QDQK"
+				],
+				"is_kdk": false,
+				"sl_dk": 48,
+				"sl_cp": 55,
+				"sl_cl": 7,
+				"tkb": "Thứ 2,tiết 6->9,Ph C.E105,GV Từ Minh Khai,04/05/26 đến 08/06/26<hr>Thứ 4,tiết 6->9,Ph C.E105,GV Từ Minh Khai,06/05/26 đến 10/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8285873691754327419",
+				"id_mon": "-6131478655507769179",
+				"ma_mon": "833313",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "DQK124C1",
+				"ds_lop": [
+					"DQK124C1"
+				],
+				"ds_khoa": [
+					"QDQK"
+				],
+				"is_kdk": false,
+				"sl_dk": 47,
+				"sl_cp": 50,
+				"sl_cl": 3,
+				"tkb": "Thứ 3,tiết 3->5,Ph C.E105,GV Lê Lan Hương,19/05/26 đến 23/06/26<hr>Thứ 5,tiết 4->5,Ph C.E105,GV Lê Lan Hương,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4951230927564412221",
+				"id_mon": "-5610027196504759453",
+				"ma_mon": "833502",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "DQK125C1",
+				"ds_lop": [
+					"DQK125C1"
+				],
+				"ds_khoa": [
+					"QDQK"
+				],
+				"is_kdk": false,
+				"sl_dk": 49,
+				"sl_cp": 58,
+				"sl_cl": 9,
+				"tkb": "Thứ 2,tiết 6->8,Ph 1.A014,GV Phan Tấn Quốc,04/05/26 đến 11/05/26<hr>Thứ 2,tiết 6->8,Ph 1.A016,GV Phan Tấn Quốc,18/05/26 đến 01/06/26<hr>Thứ 5,tiết 6->8,Ph 1.A016,GV Phan Tấn Quốc,07/05/26 đến 14/05/26<hr>Thứ 5,tiết 6->8,Ph 1.A016,GV Phan Tấn Quốc,21/05/26 đến 04/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8478106465693070607",
+				"id_mon": "-7045222135473671954",
+				"ma_mon": "833508",
+				"ten_mon": "",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "DQK124C1",
+				"ds_lop": [
+					"DQK124C1"
+				],
+				"ds_khoa": [
+					"QD"
+				],
+				"is_kdk": false,
+				"sl_dk": 47,
+				"sl_cp": 55,
+				"sl_cl": 8,
+				"tkb": "Thứ 5,tiết 1->5,Ph C.E303,GV Nguyễn Lê Thái Hòa,14/05/26 <hr>Thứ 6,tiết 1->5,Ph C.E105,GV Nguyễn Lê Thái Hòa,15/05/26 <hr>Thứ 6,tiết 6->10,Ph C.E102,GV Nguyễn Lê Thái Hòa,15/05/26 ",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4925956014435627883",
+				"id_mon": "-6155812519930009643",
+				"ma_mon": "833513",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "DQK124C1",
+				"ds_lop": [
+					"DQK124C1"
+				],
+				"ds_khoa": [
+					"QD_084"
+				],
+				"is_kdk": false,
+				"sl_dk": 47,
+				"sl_cp": 55,
+				"sl_cl": 8,
+				"tkb": "Thứ 3,tiết 1->2,Ph C.E105,GV Nguyễn Trần Hà My,19/05/26 đến 23/06/26<hr>Thứ 5,tiết 1->3,Ph C.E105,GV Nguyễn Trần Hà My,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5566705033751845981",
+				"id_mon": "-8175932143777979800",
+				"ma_mon": "838304",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "DAN124C1",
+				"ds_lop": [
+					"DAN124C1"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 46,
+				"sl_cp": 50,
+				"sl_cl": 4,
+				"tkb": "Thứ 4,tiết 1->4,Ph C.E303,GV Trần Thế Phi,20/05/26 đến 24/06/26<hr>Thứ 5,tiết 1->4,Ph C.E103,GV Trần Thế Phi,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4905955291732314501",
+				"id_mon": "-7962075240230111229",
+				"ma_mon": "841312",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "DCT125C1",
+				"ds_lop": [
+					"DCT125C1"
+				],
+				"ds_khoa": [
+					"CTCT"
+				],
+				"is_kdk": false,
+				"sl_dk": 33,
+				"sl_cp": 50,
+				"sl_cl": 17,
+				"tkb": "Thứ 2,tiết 6->8,Ph C.A301,GV Đặng Quỳnh Liên,04/05/26 đến 22/06/26<hr>Thứ 5,tiết 6->8,Ph C.A301,GV Đặng Quỳnh Liên,07/05/26 đến 18/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6467825214085508047",
+				"id_mon": "-6212699487158555536",
+				"ma_mon": "867009",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "",
+				"lop": "DAN125C1",
+				"ds_lop": [
+					"DAN125C1"
+				],
+				"ds_khoa": [
+					"QD"
+				],
+				"is_kdk": false,
+				"sl_dk": 51,
+				"sl_cp": 55,
+				"sl_cl": 4,
+				"tkb": "Thứ 3,tiết 6->9,Ph C.E302,GV Nguyễn Thị Tuyết Nga,19/05/26 đến 23/06/26<hr>Thứ 6,tiết 6->9,Ph C.E105,GV Nguyễn Thị Tuyết Nga,22/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8519214392827096562",
+				"id_mon": "-5610027196504759453",
+				"ma_mon": "833502",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "02",
+				"to": "",
+				"lop": "DQK125C2",
+				"ds_lop": [
+					"DQK125C2"
+				],
+				"ds_khoa": [
+					"QDQK"
+				],
+				"is_kdk": false,
+				"sl_dk": 44,
+				"sl_cp": 58,
+				"sl_cl": 14,
+				"tkb": "Thứ 5,tiết 3->5,Ph 1.A015,GV Phan Tấn Quốc,07/05/26 đến 04/06/26<hr>Thứ 6,tiết 3->5,Ph 1.A016,GV Phan Tấn Quốc,08/05/26 đến 05/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8116355725965682468",
+				"id_mon": "-8811492308297410862",
+				"ma_mon": "865508",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "02",
+				"to": "",
+				"lop": "DAN125C1",
+				"ds_lop": [
+					"DAN125C1"
+				],
+				"ds_khoa": [
+					"TDTU"
+				],
+				"is_kdk": false,
+				"sl_dk": 51,
+				"sl_cp": 55,
+				"sl_cl": 4,
+				"tkb": "Thứ 2,tiết 6->8,Ph C.HB403,GV Nguyễn Văn Huấn,18/05/26 đến 22/06/26<hr>Thứ 5,tiết 6->7,Ph C.D401,GV Nguyễn Văn Huấn,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7943203665613408208",
+				"id_mon": "-6212699487158555536",
+				"ma_mon": "867009",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "02",
+				"to": "",
+				"lop": "DAN125C2",
+				"ds_lop": [
+					"DAN125C2"
+				],
+				"ds_khoa": [
+					"QD"
+				],
+				"is_kdk": false,
+				"sl_dk": 51,
+				"sl_cp": 55,
+				"sl_cl": 4,
+				"tkb": "Thứ 4,tiết 6->9,Ph C.E205,GV Nguyễn Thị Tuyết Nga,20/05/26 đến 24/06/26<hr>Thứ 5,tiết 6->9,Ph C.E205,GV Nguyễn Thị Tuyết Nga,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4843434793031924820",
+				"id_mon": "-9073652541324374232",
+				"ma_mon": "867508",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "02",
+				"to": "",
+				"lop": "DQK125C1",
+				"ds_lop": [
+					"DQK125C1"
+				],
+				"ds_khoa": [],
+				"is_kdk": false,
+				"sl_dk": 52,
+				"sl_cp": 58,
+				"sl_cl": 6,
+				"tkb": "Thứ 2,tiết 1->3,Ph C.E104,GV Nguyễn Lương Thái Bình,04/05/26 đến 15/06/26<hr>Thứ 2,tiết 1->3,Ph C.E104,GV Nguyễn Lương Thái Bình,22/06/26 <hr>Thứ 6,tiết 3->5,Ph C.D401,GV Nguyễn Lương Thái Bình,08/05/26 đến 19/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5486852175791563201",
+				"id_mon": "-7635668919246158749",
+				"ma_mon": "867510",
+				"ten_mon": "",
+				"so_tc": "4",
+				"so_tc_so": {
+					"source": "4.0",
+					"parsedValue": 4
+				},
+				"is_vuot": false,
+				"nhom_to": "02",
+				"to": "",
+				"lop": "DKE124C1",
+				"ds_lop": [
+					"DKE124C1"
+				],
+				"ds_khoa": [
+					"TDTU"
+				],
+				"is_kdk": false,
+				"sl_dk": 45,
+				"sl_cp": 55,
+				"sl_cl": 10,
+				"tkb": "Thứ 2,tiết 1->4,Ph 1.A301,GV Nguyễn Thế Minh,04/05/26 đến 18/05/26<hr>Thứ 2,tiết 1->4,Ph 1.A301,GV Nguyễn Thế Minh,08/06/26 đến 22/06/26<hr>Thứ 3,tiết 1->2,Ph 1.A301,GV Nguyễn Thế Minh,05/05/26 đến 19/05/26<hr>Thứ 3,tiết 1->2,Ph 1.A301,GV Nguyễn Thế Minh,09/06/26 đến 23/06/26<hr>Thứ 5,tiết 2->5,Ph 1.A301,GV Nguyễn Thế Minh,07/05/26 đến 21/05/26<hr>Thứ 5,tiết 2->5,Ph 1.A301,GV Nguyễn Thế Minh,11/06/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8616080015736234819",
+				"id_mon": "-8905539676478801763",
+				"ma_mon": "871516",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "02",
+				"to": "",
+				"lop": "DKE124C1",
+				"ds_lop": [
+					"DKE124C1"
+				],
+				"ds_khoa": [
+					"TEKI"
+				],
+				"is_kdk": false,
+				"sl_dk": 45,
+				"sl_cp": 55,
+				"sl_cl": 10,
+				"tkb": "Thứ 4,tiết 6->9,Ph 1.A301,GV Nguyễn Anh Hiền,06/05/26 đến 20/05/26<hr>Thứ 4,tiết 6->9,Ph 1.A301,GV Nguyễn Anh Hiền,10/06/26 đến 17/06/26<hr>Thứ 4,tiết 6->8,Ph 1.A301,GV Nguyễn Anh Hiền,24/06/26 <hr>Thứ 6,tiết 2->5,Ph 1.A301,GV Nguyễn Anh Hiền,08/05/26 đến 22/05/26<hr>Thứ 6,tiết 2->5,Ph 1.A301,GV Nguyễn Anh Hiền,12/06/26 đến 19/06/26<hr>Thứ 6,tiết 1->2,Ph 1.A301,GV Nguyễn Anh Hiền,26/06/26 ",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4893712335452479253",
+				"id_mon": "-7825044091124719200",
+				"ma_mon": "CALO12",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "02",
+				"to": "",
+				"lop": "DCT123C3",
+				"ds_lop": [
+					"DCT123C3"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 47,
+				"sl_cp": 50,
+				"sl_cl": 3,
+				"tkb": "Thứ 3,tiết 1->2,Ph C.SCL01,GV Nguyễn Đỗ Minh Sơn,19/05/26 đến 23/06/26<hr>Thứ 5,tiết 1->3,Ph C.SCL02,GV Nguyễn Đỗ Minh Sơn,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7287169922639409571",
+				"id_mon": "-8365382415062877367",
+				"ma_mon": "813307",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "03",
+				"to": "",
+				"lop": "DAN124C1",
+				"ds_lop": [
+					"DAN124C1"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 46,
+				"sl_cp": 50,
+				"sl_cl": 4,
+				"tkb": "Thứ 3,tiết 6->9,Ph C.E205,GV Đặng Vũ Minh Thư,19/05/26 đến 23/06/26<hr>Thứ 5,tiết 6->9,Ph C.E304,GV Đặng Vũ Minh Thư,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8479657580895950715",
+				"id_mon": "-6700761285689499425",
+				"ma_mon": "813406",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "03",
+				"to": "",
+				"lop": "DAN125C1",
+				"ds_lop": [
+					"DAN125C1"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 50,
+				"sl_cp": 55,
+				"sl_cl": 5,
+				"tkb": "Thứ 2,tiết 1->3,Ph C.A203,GV Đào Lê Trọng Nhân,04/05/26 đến 15/06/26<hr>Thứ 4,tiết 2->5,Ph C.A303,GV Đào Lê Trọng Nhân,06/05/26 đến 17/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8447885509249128712",
+				"id_mon": "-6914463563702867912",
+				"ma_mon": "813410",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "03",
+				"to": "",
+				"lop": "DAN125C1",
+				"ds_lop": [
+					"DAN125C1"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 50,
+				"sl_cp": 55,
+				"sl_cl": 5,
+				"tkb": "Thứ 5,tiết 2->5,Ph C.E203,GV Phạm Ngọc Diễm,21/05/26 đến 25/06/26<hr>Thứ 6,tiết 2->5,Ph C.E105,GV Phạm Ngọc Diễm,22/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7624254104487183647",
+				"id_mon": "-6285897166133703365",
+				"ma_mon": "864006",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "03",
+				"to": "",
+				"lop": "DCT125C1",
+				"ds_lop": [
+					"DCT125C1"
+				],
+				"ds_khoa": [
+					"TDTU"
+				],
+				"is_kdk": false,
+				"sl_dk": 53,
+				"sl_cp": 60,
+				"sl_cl": 7,
+				"tkb": "Thứ 2,tiết 9->10,Ph C.A201,GV Nguyễn Chiến Thắng,18/05/26 đến 15/06/26<hr>Thứ 2,tiết 9->10,Ph C.A201,GV Nguyễn Chiến Thắng,22/06/26 <hr>Thứ 5,tiết 3->5,Ph C.A101,GV Nguyễn Chiến Thắng,21/05/26 đến 18/06/26<hr>Thứ 6,tiết 3->5,Ph C.A101,GV Nguyễn Chiến Thắng,22/05/26 đến 19/06/26<hr>Thứ 6,tiết 3->5,Ph C.A101,GV Nguyễn Chiến Thắng,26/06/26 ",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": true,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4827978412685717533",
+				"id_mon": "-8811492308297410862",
+				"ma_mon": "865508",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "03",
+				"to": "",
+				"lop": "DAN125C2",
+				"ds_lop": [
+					"DAN125C2"
+				],
+				"ds_khoa": [
+					"TDTU"
+				],
+				"is_kdk": false,
+				"sl_dk": 51,
+				"sl_cp": 55,
+				"sl_cl": 4,
+				"tkb": "Thứ 3,tiết 9->10,Ph C.D401,GV Nguyễn Lương Thái Bình,19/05/26 đến 23/06/26<hr>Thứ 6,tiết 6->8,Ph C.A411,GV Nguyễn Lương Thái Bình,22/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4720946974071302575",
+				"id_mon": "-9073652541324374232",
+				"ma_mon": "867508",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "03",
+				"to": "",
+				"lop": "DQK125C2",
+				"ds_lop": [
+					"DQK125C2"
+				],
+				"ds_khoa": [],
+				"is_kdk": false,
+				"sl_dk": 51,
+				"sl_cp": 58,
+				"sl_cl": 7,
+				"tkb": "Thứ 4,tiết 1->3,Ph C.D401,GV Đào Thị Thanh Hà,06/05/26 đến 17/06/26<hr>Thứ 4,tiết 1->3,Ph C.D401,GV Đào Thị Thanh Hà,24/06/26 <hr>Thứ 5,tiết 8->10,Ph C.HB403,GV Đào Thị Thanh Hà,07/05/26 đến 18/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5305969755177875066",
+				"id_mon": "-7825044091124719200",
+				"ma_mon": "CALO12",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "03",
+				"to": "",
+				"lop": "DCT123C4",
+				"ds_lop": [
+					"DCT123C4"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 47,
+				"sl_cp": 50,
+				"sl_cl": 3,
+				"tkb": "Thứ 2,tiết 1->2,Ph C.SCL01,GV Nguyễn Đỗ Minh Sơn,18/05/26 đến 22/06/26<hr>Thứ 4,tiết 1->3,Ph C.SCL02,GV Nguyễn Đỗ Minh Sơn,20/05/26 đến 24/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7905953624003725619",
+				"id_mon": "-6700761285689499425",
+				"ma_mon": "813406",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "04",
+				"to": "",
+				"lop": "DAN125C2",
+				"ds_lop": [
+					"DAN125C2"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 51,
+				"sl_cp": 55,
+				"sl_cl": 4,
+				"tkb": "Thứ 5,tiết 2->5,Ph C.E502,GV Trịnh Thu Hương,21/05/26 đến 25/06/26<hr>Thứ 6,tiết 2->5,Ph C.E302,GV Trịnh Thu Hương,22/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6517221080141827122",
+				"id_mon": "-6914463563702867912",
+				"ma_mon": "813410",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "04",
+				"to": "",
+				"lop": "DAN125C2",
+				"ds_lop": [
+					"DAN125C2"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 51,
+				"sl_cp": 55,
+				"sl_cl": 4,
+				"tkb": "Thứ 3,tiết 3->5,Ph C.A410,GV Nguyễn Quang Minh Triết,05/05/26 đến 16/06/26<hr>Thứ 4,tiết 2->5,Ph C.A206,GV Nguyễn Quang Minh Triết,06/05/26 đến 17/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7248037377667740834",
+				"id_mon": "-7825044091124719200",
+				"ma_mon": "CALO12",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "04",
+				"to": "",
+				"lop": "DCT123C5",
+				"ds_lop": [
+					"DCT123C5"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 43,
+				"sl_cp": 50,
+				"sl_cl": 7,
+				"tkb": "Thứ 3,tiết 3->5,Ph C.SCL01,GV Nguyễn Đỗ Minh Sơn,19/05/26 đến 23/06/26<hr>Thứ 5,tiết 4->5,Ph C.SCL01,GV Nguyễn Đỗ Minh Sơn,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5282230837121308022",
+				"id_mon": "-8084365700936521307",
+				"ma_mon": "832026",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "05",
+				"to": "",
+				"lop": "DKE125C1",
+				"ds_lop": [
+					"DKE125C1"
+				],
+				"ds_khoa": [
+					"TEKE"
+				],
+				"is_kdk": false,
+				"sl_dk": 47,
+				"sl_cp": 55,
+				"sl_cl": 8,
+				"tkb": "Thứ 2,tiết 9->10,Ph C.D401,GV Đặng Bửu Kiếm,18/05/26 đến 15/06/26<hr>Thứ 2,tiết 9->10,Ph C.D401,GV Đặng Bửu Kiếm,22/06/26 <hr>Thứ 4,tiết 8->10,Ph C.HB406,GV Đặng Bửu Kiếm,20/05/26 đến 17/06/26<hr>Thứ 6,tiết 6->8,Ph C.HB406,GV Đặng Bửu Kiếm,22/05/26 đến 19/06/26<hr>Thứ 6,tiết 6->8,Ph C.HB406,GV Đặng Bửu Kiếm,26/06/26 ",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7094636351697654452",
+				"id_mon": "-7825044091124719200",
+				"ma_mon": "CALO12",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "05",
+				"to": "",
+				"lop": "DCT123C6",
+				"ds_lop": [
+					"DCT123C6"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 46,
+				"sl_cp": 50,
+				"sl_cl": 4,
+				"tkb": "Thứ 4,tiết 3->5,Ph C.SCL01,GV Lê Ngọc Long,20/05/26 đến 24/06/26<hr>Thứ 5,tiết 4->5,Ph C.SCL02,GV Lê Ngọc Long,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8430689240828176376",
+				"id_mon": "-7825044091124719200",
+				"ma_mon": "CALO12",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "06",
+				"to": "",
+				"lop": "DQK125C1",
+				"ds_lop": [
+					"DQK125C1"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 48,
+				"sl_cp": 58,
+				"sl_cl": 10,
+				"tkb": "Thứ 5,tiết 1->3,Ph C.SCL01,GV Lê Ngọc Long,21/05/26 đến 25/06/26<hr>Thứ 6,tiết 1->2,Ph C.SCL02,GV Lê Ngọc Long,22/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8234253860688919193",
+				"id_mon": "-7825044091124719200",
+				"ma_mon": "CALO12",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "07",
+				"to": "",
+				"lop": "DQK125C2",
+				"ds_lop": [
+					"DQK125C2"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 44,
+				"sl_cp": 58,
+				"sl_cl": 14,
+				"tkb": "Thứ 2,tiết 1->2,Ph C.SCL02,GV Đoàn Lê Quế Trân,04/05/26 đến 22/06/26<hr>Thứ 4,tiết 9->10,Ph C.SCL02,GV Đoàn Lê Quế Trân,06/05/26 đến 24/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6577960132919711952",
+				"id_mon": "-7258821658638708603",
+				"ma_mon": "862407",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "16",
+				"to": "",
+				"lop": "DKE125C1",
+				"ds_lop": [
+					"DKE125C1"
+				],
+				"ds_khoa": [
+					"QPQP"
+				],
+				"is_kdk": false,
+				"sl_dk": 47,
+				"sl_cp": 55,
+				"sl_cl": 8,
+				"tkb": "Thứ 3,tiết 6->9,Ph C.HB406,GV Dương Ngọc Trường,05/05/26 đến 16/06/26<hr>Thứ 3,tiết 6->7,Ph C.HB406,GV Dương Ngọc Trường,23/06/26 ",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7468852069381462021",
+				"id_mon": "-7942621234272196328",
+				"ma_mon": "866401",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "16",
+				"to": "",
+				"lop": "DQK125C1",
+				"ds_lop": [
+					"DQK125C1"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 48,
+				"sl_cp": 50,
+				"sl_cl": 2,
+				"tkb": "Thứ 3,tiết 2->5,Ph C.E203,GV Nguyễn Trịnh Tố Anh,19/05/26 đến 23/06/26<hr>Thứ 4,tiết 2->5,Ph C.E203,GV Nguyễn Trịnh Tố Anh,20/05/26 đến 24/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4971163270697565721",
+				"id_mon": "-6429001510652070134",
+				"ma_mon": "BODA11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "16",
+				"to": "",
+				"lop": "DCT124C1",
+				"ds_lop": [
+					"DCT124C1"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 39,
+				"sl_cp": 50,
+				"sl_cl": 11,
+				"tkb": "Thứ 4,tiết 7->8,Ph C.SBDA1,GV Võ Lê Minh,06/05/26 đến 24/06/26<hr>Thứ 6,tiết 3->4,Ph C.SBDA1,GV Võ Lê Minh,08/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6340076442494041077",
+				"id_mon": "-8071936627323357464",
+				"ma_mon": "CALO11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "16",
+				"to": "",
+				"lop": "DAN125C1",
+				"ds_lop": [
+					"DAN125C1"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 50,
+				"sl_cp": 55,
+				"sl_cl": 5,
+				"tkb": "Thứ 4,tiết 6->8,Ph C.SCL01,GV Nguyễn Đỗ Minh Sơn,20/05/26 đến 24/06/26<hr>Thứ 5,tiết 9->10,Ph C.SCL02,GV Nguyễn Đỗ Minh Sơn,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7560790701285773289",
+				"id_mon": "-5805043930406764761",
+				"ma_mon": "861305",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "17",
+				"to": "",
+				"lop": "DCT124C1",
+				"ds_lop": [
+					"DCT124C1"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 39,
+				"sl_cp": 50,
+				"sl_cl": 11,
+				"tkb": "Thứ 2,tiết 6->8,Ph C.E401,GV Phạm Phúc Vĩnh,18/05/26 đến 22/06/26<hr>Thứ 6,tiết 6->7,Ph C.E401,GV Phạm Phúc Vĩnh,22/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6283724810615469768",
+				"id_mon": "-7942621234272196328",
+				"ma_mon": "866401",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "17",
+				"to": "",
+				"lop": "DQK125C2",
+				"ds_lop": [
+					"DQK125C2"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 40,
+				"sl_cp": 50,
+				"sl_cl": 10,
+				"tkb": "Thứ 2,tiết 6->8,Ph C.E203,GV Nguyễn Hồng Quỳnh Như,04/05/26 đến 22/06/26<hr>Thứ 4,tiết 6->8,Ph C.E303,GV Nguyễn Hồng Quỳnh Như,06/05/26 đến 24/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7648739679438973509",
+				"id_mon": "-6429001510652070134",
+				"ma_mon": "BODA11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "17",
+				"to": "",
+				"lop": "DCT124C2",
+				"ds_lop": [
+					"DCT124C2"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 43,
+				"sl_cp": 50,
+				"sl_cl": 7,
+				"tkb": "Thứ 2,tiết 3->4,Ph C.SBDA2,GV Võ Lê Minh,04/05/26 đến 22/06/26<hr>Thứ 6,tiết 7->8,Ph C.SBDA1,GV Võ Lê Minh,08/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4644014083303645244",
+				"id_mon": "-8071936627323357464",
+				"ma_mon": "CALO11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "17",
+				"to": "",
+				"lop": "DAN125C2",
+				"ds_lop": [
+					"DAN125C2"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 51,
+				"sl_cp": 55,
+				"sl_cl": 4,
+				"tkb": "Thứ 2,tiết 6->7,Ph C.SCL01,GV Nguyễn Đỗ Minh Sơn,18/05/26 đến 22/06/26<hr>Thứ 3,tiết 6->8,Ph C.SCL01,GV Nguyễn Đỗ Minh Sơn,19/05/26 đến 23/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6735337388450068045",
+				"id_mon": "-5805043930406764761",
+				"ma_mon": "861305",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "18",
+				"to": "",
+				"lop": "DCT124C2",
+				"ds_lop": [
+					"DCT124C2"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 43,
+				"sl_cp": 50,
+				"sl_cl": 7,
+				"tkb": "Thứ 3,tiết 1->3,Ph C.E404,GV Phạm Phúc Vĩnh,19/05/26 đến 23/06/26<hr>Thứ 6,tiết 3->4,Ph C.E401,GV Phạm Phúc Vĩnh,22/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5359635186214300862",
+				"id_mon": "-7942621234272196328",
+				"ma_mon": "866401",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "18",
+				"to": "",
+				"lop": "DKE125C1",
+				"ds_lop": [
+					"DKE125C1"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 41,
+				"sl_cp": 50,
+				"sl_cl": 9,
+				"tkb": "Thứ 5,tiết 1->3,Ph C.A301,GV Nguyễn Trịnh Tố Anh,07/05/26 đến 25/06/26<hr>Thứ 5,tiết 6->8,Ph C.A401,GV Nguyễn Trịnh Tố Anh,07/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8716864198506761620",
+				"id_mon": "-6429001510652070134",
+				"ma_mon": "BODA11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "18",
+				"to": "",
+				"lop": "DCT124C3",
+				"ds_lop": [
+					"DCT124C3"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 44,
+				"sl_cp": 50,
+				"sl_cl": 6,
+				"tkb": "Thứ 4,tiết 1->3,Ph C.SBDA1,GV Võ Lê Minh,20/05/26 đến 24/06/26<hr>Thứ 6,tiết 1->2,Ph C.SBDA1,GV Võ Lê Minh,22/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5361867340369594644",
+				"id_mon": "-8071936627323357464",
+				"ma_mon": "CALO11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "18",
+				"to": "",
+				"lop": "DCT124C6",
+				"ds_lop": [
+					"DCT124C6"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 34,
+				"sl_cp": 50,
+				"sl_cl": 16,
+				"tkb": "Thứ 3,tiết 3->5,Ph C.SCL02,GV Lê Ngọc Long,19/05/26 đến 23/06/26<hr>Thứ 5,tiết 6->7,Ph C.SCL01,GV Lê Ngọc Long,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4989959438463768841",
+				"id_mon": "-5805043930406764761",
+				"ma_mon": "861305",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "19",
+				"to": "",
+				"lop": "DCT124C3",
+				"ds_lop": [
+					"DCT124C3"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 43,
+				"sl_cp": 50,
+				"sl_cl": 7,
+				"tkb": "Thứ 2,tiết 4->5,Ph C.E401,GV Phạm Phúc Vĩnh,18/05/26 đến 22/06/26<hr>Thứ 3,tiết 6->8,Ph C.D401,GV Phạm Phúc Vĩnh,19/05/26 đến 23/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6153648071719183714",
+				"id_mon": "-7608760565311772848",
+				"ma_mon": "865006",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "19",
+				"to": "",
+				"lop": "DCT124C1",
+				"ds_lop": [
+					"DCT124C1"
+				],
+				"ds_khoa": [
+					"LULU"
+				],
+				"is_kdk": false,
+				"sl_dk": 39,
+				"sl_cp": 50,
+				"sl_cl": 11,
+				"tkb": "Thứ 3,tiết 6->8,Ph C.A410,GV Vũ Thế Hoài,05/05/26 đến 09/06/26<hr>Thứ 5,tiết 9->10,Ph C.A410,GV Vũ Thế Hoài,07/05/26 đến 11/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5583048627520791058",
+				"id_mon": "-6429001510652070134",
+				"ma_mon": "BODA11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "19",
+				"to": "",
+				"lop": "DCT124C4",
+				"ds_lop": [
+					"DCT124C4"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 35,
+				"sl_cp": 50,
+				"sl_cl": 15,
+				"tkb": "Thứ 4,tiết 1->3,Ph C.SBDA2,GV Lê Vũ Ngọc Toàn,20/05/26 đến 24/06/26<hr>Thứ 6,tiết 7->8,Ph C.SBDA2,GV Lê Vũ Ngọc Toàn,22/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-9156740759554364282",
+				"id_mon": "-8071936627323357464",
+				"ma_mon": "CALO11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "19",
+				"to": "",
+				"lop": "DCT124C7",
+				"ds_lop": [
+					"DCT124C7"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 35,
+				"sl_cp": 50,
+				"sl_cl": 15,
+				"tkb": "Thứ 3,tiết 1->4,Ph C.SCL01,GV Lê Ngọc Long,30/06/26 đến 21/07/26<hr>Thứ 5,tiết 1->4,Ph C.SCL01,GV Lê Ngọc Long,02/07/26 đến 23/07/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8293396241076437169",
+				"id_mon": "-5805043930406764761",
+				"ma_mon": "861305",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "20",
+				"to": "",
+				"lop": "DCT124C4",
+				"ds_lop": [
+					"DCT124C4"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 35,
+				"sl_cp": 50,
+				"sl_cl": 15,
+				"tkb": "Thứ 3,tiết 4->5,Ph C.D401,GV Mai Thúc Hiệp,05/05/26 đến 19/05/26<hr>Thứ 3,tiết 4->5,Ph C.D401,GV Mai Thúc Hiệp,09/06/26 đến 23/06/26<hr>Thứ 4,tiết 6->8,Ph C.A107,GV Mai Thúc Hiệp,06/05/26 đến 20/05/26<hr>Thứ 4,tiết 6->8,Ph C.A107,GV Mai Thúc Hiệp,10/06/26 đến 24/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7995805183048079682",
+				"id_mon": "-7608760565311772848",
+				"ma_mon": "865006",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "20",
+				"to": "",
+				"lop": "DCT124C2",
+				"ds_lop": [
+					"DCT124C2"
+				],
+				"ds_khoa": [
+					"LULU"
+				],
+				"is_kdk": false,
+				"sl_dk": 43,
+				"sl_cp": 50,
+				"sl_cl": 7,
+				"tkb": "Thứ 3,tiết 9->10,Ph C.A410,GV Vũ Thế Hoài,05/05/26 đến 09/06/26<hr>Thứ 5,tiết 6->8,Ph C.A410,GV Vũ Thế Hoài,07/05/26 đến 11/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6816448341177417851",
+				"id_mon": "-6429001510652070134",
+				"ma_mon": "BODA11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "20",
+				"to": "",
+				"lop": "DCT124C5",
+				"ds_lop": [
+					"DCT124C5"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 44,
+				"sl_cp": 50,
+				"sl_cl": 6,
+				"tkb": "Thứ 2,tiết 9->10,Ph C.SBDA1,GV Nguyễn Hùng Dũng,04/05/26 đến 22/06/26<hr>Thứ 5,tiết 9->10,Ph C.SBDA2,GV Nguyễn Hùng Dũng,07/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8037319269032390512",
+				"id_mon": "-5805043930406764761",
+				"ma_mon": "861305",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "21",
+				"to": "",
+				"lop": "DCT124C5",
+				"ds_lop": [
+					"DCT124C5"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 44,
+				"sl_cp": 50,
+				"sl_cl": 6,
+				"tkb": "Thứ 2,tiết 1->3,Ph 1.A401,GV Mai Thúc Hiệp,04/05/26 đến 18/05/26<hr>Thứ 2,tiết 1->3,Ph 1.A401,GV Mai Thúc Hiệp,08/06/26 đến 22/06/26<hr>Thứ 4,tiết 9->10,Ph C.HB403,GV Mai Thúc Hiệp,06/05/26 đến 20/05/26<hr>Thứ 4,tiết 9->10,Ph C.HB403,GV Mai Thúc Hiệp,10/06/26 đến 24/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-9065737841361019851",
+				"id_mon": "-7608760565311772848",
+				"ma_mon": "865006",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "21",
+				"to": "",
+				"lop": "DCT124C3",
+				"ds_lop": [
+					"DCT124C3"
+				],
+				"ds_khoa": [
+					"LULU"
+				],
+				"is_kdk": false,
+				"sl_dk": 43,
+				"sl_cp": 50,
+				"sl_cl": 7,
+				"tkb": "Thứ 2,tiết 1->3,Ph C.A412,GV Nguyễn Thị Thanh Bình,04/05/26 đến 08/06/26<hr>Thứ 3,tiết 9->10,Ph C.A307,GV Nguyễn Thị Thanh Bình,05/05/26 đến 09/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6985457068931302879",
+				"id_mon": "-7079342705091014964",
+				"ma_mon": "866403",
+				"ten_mon": "",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "21",
+				"to": "",
+				"lop": "DQK124C1",
+				"ds_lop": [
+					"DQK124C1"
+				],
+				"ds_khoa": [
+					"NN"
+				],
+				"is_kdk": false,
+				"sl_dk": 0,
+				"sl_cp": 55,
+				"sl_cl": 55,
+				"tkb": "GV Nguyễn Ngọc Anh Thư,04/05/26 đến 28/06/26<hr>GV Nguyễn Ngọc Anh Thư,04/05/26 đến 28/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8066085515386833974",
+				"id_mon": "-6429001510652070134",
+				"ma_mon": "BODA11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "21",
+				"to": "",
+				"lop": "DCT123C1",
+				"ds_lop": [
+					"DCT123C1"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 47,
+				"sl_cp": 50,
+				"sl_cl": 3,
+				"tkb": "Thứ 3,tiết 7->8,Ph C.SBDA1,GV Lê Vũ Ngọc Toàn,05/05/26 đến 23/06/26<hr>Thứ 5,tiết 7->8,Ph C.SBDA1,GV Lê Vũ Ngọc Toàn,07/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5257313137304174115",
+				"id_mon": "-8892658375647125532",
+				"ma_mon": "861303",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "22",
+				"to": "",
+				"lop": "DCT125C1",
+				"ds_lop": [
+					"DCT125C1"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 31,
+				"sl_cp": 45,
+				"sl_cl": 14,
+				"tkb": "Thứ 3,tiết 6->8,Ph C.E401,GV Vũ Công Thương,05/05/26 đến 19/05/26<hr>Thứ 3,tiết 6->8,Ph C.E401,GV Vũ Công Thương,09/06/26 đến 23/06/26<hr>Thứ 4,tiết 6->7,Ph C.E401,GV Vũ Công Thương,06/05/26 đến 20/05/26<hr>Thứ 4,tiết 6->7,Ph C.E401,GV Vũ Công Thương,10/06/26 đến 24/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7709462665913678884",
+				"id_mon": "-5805043930406764761",
+				"ma_mon": "861305",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "22",
+				"to": "",
+				"lop": "DCT124C6",
+				"ds_lop": [
+					"DCT124C6"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 33,
+				"sl_cp": 50,
+				"sl_cl": 17,
+				"tkb": "Thứ 4,tiết 6->7,Ph C.D401,GV Phạm Văn Phương,20/05/26 đến 24/06/26<hr>Thứ 5,tiết 1->3,Ph C.E401,GV Phạm Văn Phương,21/05/26 đến 25/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8540695411430187804",
+				"id_mon": "-7608760565311772848",
+				"ma_mon": "865006",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "22",
+				"to": "",
+				"lop": "DCT124C4",
+				"ds_lop": [
+					"DCT124C4"
+				],
+				"ds_khoa": [
+					"LULU"
+				],
+				"is_kdk": false,
+				"sl_dk": 36,
+				"sl_cp": 50,
+				"sl_cl": 14,
+				"tkb": "Thứ 4,tiết 9->10,Ph C.A301,GV Đinh Thị Thanh Nga,06/05/26 đến 10/06/26<hr>Thứ 6,tiết 1->3,Ph C.A301,GV Đinh Thị Thanh Nga,08/05/26 đến 12/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8941583644616953563",
+				"id_mon": "-6429001510652070134",
+				"ma_mon": "BODA11",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "1",
+				"so_tc_so": {
+					"source": "1.0",
+					"parsedValue": 1
+				},
+				"is_vuot": false,
+				"nhom_to": "22",
+				"to": "",
+				"lop": "DCT123C2",
+				"ds_lop": [
+					"DCT123C2"
+				],
+				"ds_khoa": [
+					"QPTC"
+				],
+				"is_kdk": false,
+				"sl_dk": 43,
+				"sl_cp": 50,
+				"sl_cl": 7,
+				"tkb": "Thứ 2,tiết 1->2,Ph C.S_BDA,GV Nguyễn Hùng Dũng,04/05/26 đến 22/06/26<hr>Thứ 3,tiết 1->2,Ph C.SBDA2,GV Nguyễn Hùng Dũng,05/05/26 đến 23/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7381480001875952954",
+				"id_mon": "-8892658375647125532",
+				"ma_mon": "861303",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "23",
+				"to": "",
+				"lop": "DAN125C1",
+				"ds_lop": [
+					"DAN125C1"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 51,
+				"sl_cp": 55,
+				"sl_cl": 4,
+				"tkb": "Thứ 2,tiết 4->5,Ph C.HB406,GV Nguyễn Thị Hiền Oanh,04/05/26 đến 18/05/26<hr>Thứ 2,tiết 4->5,Ph C.HB406,GV Nguyễn Thị Hiền Oanh,08/06/26 đến 22/06/26<hr>Thứ 3,tiết 3->5,Ph C.HB403,GV Nguyễn Thị Hiền Oanh,05/05/26 đến 19/05/26<hr>Thứ 3,tiết 3->5,Ph C.HB403,GV Nguyễn Thị Hiền Oanh,09/06/26 đến 23/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8830389739065681053",
+				"id_mon": "-5805043930406764761",
+				"ma_mon": "861305",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "23",
+				"to": "",
+				"lop": "DCT124C7",
+				"ds_lop": [
+					"DCT124C7"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 36,
+				"sl_cp": 50,
+				"sl_cl": 14,
+				"tkb": "Thứ 4,tiết 1->3,Ph C.E401,GV Phạm Văn Phương,20/05/26 đến 24/06/26<hr>Thứ 6,tiết 1->2,Ph C.E401,GV Phạm Văn Phương,22/05/26 đến 26/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6657751229941027749",
+				"id_mon": "-7608760565311772848",
+				"ma_mon": "865006",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "23",
+				"to": "",
+				"lop": "DCT124C5",
+				"ds_lop": [
+					"DCT124C5"
+				],
+				"ds_khoa": [
+					"LULU"
+				],
+				"is_kdk": false,
+				"sl_dk": 45,
+				"sl_cp": 50,
+				"sl_cl": 5,
+				"tkb": "Thứ 4,tiết 6->8,Ph C.A301,GV Đinh Thị Thanh Nga,06/05/26 đến 10/06/26<hr>Thứ 6,tiết 4->5,Ph C.A301,GV Đinh Thị Thanh Nga,08/05/26 đến 12/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6075866590477404197",
+				"id_mon": "-8892658375647125532",
+				"ma_mon": "861303",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "24",
+				"to": "",
+				"lop": "DAN125C2",
+				"ds_lop": [
+					"DAN125C2"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 51,
+				"sl_cp": 55,
+				"sl_cl": 4,
+				"tkb": "Thứ 2,tiết 1->3,Ph C.HB406,GV Nguyễn Thị Hiền Oanh,04/05/26 đến 18/05/26<hr>Thứ 2,tiết 1->3,Ph C.HB406,GV Nguyễn Thị Hiền Oanh,08/06/26 đến 22/06/26<hr>Thứ 3,tiết 1->2,Ph C.E401,GV Nguyễn Thị Hiền Oanh,05/05/26 đến 19/05/26<hr>Thứ 3,tiết 1->2,Ph C.E401,GV Nguyễn Thị Hiền Oanh,09/06/26 đến 23/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5736580547052184456",
+				"id_mon": "-7608760565311772848",
+				"ma_mon": "865006",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "24",
+				"to": "",
+				"lop": "DCT124C6",
+				"ds_lop": [
+					"DCT124C6"
+				],
+				"ds_khoa": [
+					"LULU"
+				],
+				"is_kdk": false,
+				"sl_dk": 33,
+				"sl_cp": 50,
+				"sl_cl": 17,
+				"tkb": "Thứ 3,tiết 6->8,Ph C.B003,GV Nguyễn Thị Hồng Phước,05/05/26 đến 09/06/26<hr>Thứ 6,tiết 9->10,Ph C.A301,GV Nguyễn Thị Hồng Phước,08/05/26 đến 12/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5917734742382321362",
+				"id_mon": "-8892658375647125532",
+				"ma_mon": "861303",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "25",
+				"to": "",
+				"lop": "DQK125C1",
+				"ds_lop": [
+					"DQK125C1"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 49,
+				"sl_cp": 58,
+				"sl_cl": 9,
+				"tkb": "Thứ 3,tiết 6->8,Ph 1.A301,GV Nguyễn Thị Hương Giang,05/05/26 đến 19/05/26<hr>Thứ 3,tiết 6->8,Ph 1.A301,GV Nguyễn Thị Hương Giang,09/06/26 đến 23/06/26<hr>Thứ 4,tiết 6->7,Ph 1.A502,GV Nguyễn Thị Hương Giang,06/05/26 đến 20/05/26<hr>Thứ 4,tiết 6->7,Ph 1.A502,GV Nguyễn Thị Hương Giang,10/06/26 đến 24/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6235411226827211811",
+				"id_mon": "-7608760565311772848",
+				"ma_mon": "865006",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "25",
+				"to": "",
+				"lop": "DCT124C7",
+				"ds_lop": [
+					"DCT124C7"
+				],
+				"ds_khoa": [
+					"LULU"
+				],
+				"is_kdk": false,
+				"sl_dk": 36,
+				"sl_cp": 50,
+				"sl_cl": 14,
+				"tkb": "Thứ 3,tiết 9->10,Ph C.E204,GV Nguyễn Thị Hồng Phước,05/05/26 đến 09/06/26<hr>Thứ 6,tiết 6->8,Ph C.A301,GV Nguyễn Thị Hồng Phước,08/05/26 đến 12/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6500945736287246060",
+				"id_mon": "-8892658375647125532",
+				"ma_mon": "861303",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "26",
+				"to": "",
+				"lop": "DQK125C2",
+				"ds_lop": [
+					"DQK125C2"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 44,
+				"sl_cp": 58,
+				"sl_cl": 14,
+				"tkb": "Thứ 2,tiết 3->5,Ph C.D401,GV Trần Thị Tươi,04/05/26 đến 18/05/26<hr>Thứ 2,tiết 3->5,Ph C.D401,GV Trần Thị Tươi,08/06/26 đến 22/06/26<hr>Thứ 3,tiết 6->7,Ph 1.A402,GV Trần Thị Tươi,05/05/26 đến 19/05/26<hr>Thứ 3,tiết 6->7,Ph 1.A402,GV Trần Thị Tươi,09/06/26 đến 23/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8075834493843746314",
+				"id_mon": "-7608760565311772848",
+				"ma_mon": "865006",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "26",
+				"to": "",
+				"lop": "DAN124C1",
+				"ds_lop": [
+					"DAN124C1"
+				],
+				"ds_khoa": [
+					"LULU"
+				],
+				"is_kdk": false,
+				"sl_dk": 46,
+				"sl_cp": 50,
+				"sl_cl": 4,
+				"tkb": "Thứ 2,tiết 6->8,Ph 1.A401,GV Nguyễn Song Ngọc Chung,04/05/26 đến 01/06/26<hr>Thứ 4,tiết 6->8,Ph 1.A401,GV Nguyễn Song Ngọc Chung,06/05/26 đến 03/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-8094889586646238345",
+				"id_mon": "-8892658375647125532",
+				"ma_mon": "861303",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "27",
+				"to": "",
+				"lop": "DKE125C1",
+				"ds_lop": [
+					"DKE125C1"
+				],
+				"ds_khoa": [
+					"LCLC"
+				],
+				"is_kdk": false,
+				"sl_dk": 47,
+				"sl_cp": 55,
+				"sl_cl": 8,
+				"tkb": "Thứ 2,tiết 6->8,Ph C.D401,GV Trần Thị Tươi,04/05/26 đến 18/05/26<hr>Thứ 2,tiết 6->8,Ph C.D401,GV Trần Thị Tươi,08/06/26 đến 22/06/26<hr>Thứ 4,tiết 6->7,Ph C.HB403,GV Trần Thị Tươi,06/05/26 đến 20/05/26<hr>Thứ 4,tiết 6->7,Ph C.HB403,GV Trần Thị Tươi,10/06/26 đến 24/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5024669696461755836",
+				"id_mon": "-6243810957601508795",
+				"ma_mon": "862408",
+				"ten_mon": "",
+				"so_tc": "2",
+				"so_tc_so": {
+					"source": "2.0",
+					"parsedValue": 2
+				},
+				"is_vuot": false,
+				"nhom_to": "39",
+				"to": "",
+				"lop": "DAN124C1",
+				"ds_lop": [
+					"DAN124C1"
+				],
+				"ds_khoa": [
+					"QPQP"
+				],
+				"is_kdk": false,
+				"sl_dk": 46,
+				"sl_cp": 0,
+				"sl_cl": 0,
+				"tkb": "Thứ 6,tiết 1->5,Ph 4.S-QP05,GV Đào Công Nghĩa,07/08/26 <hr>Thứ 6,tiết 6->10,Ph 4.S-QP05,GV Đào Công Nghĩa,07/08/26 <hr>Thứ 7,tiết 1->5,Ph 4.S-QP05,GV Đào Công Nghĩa,08/08/26 <hr>Thứ 7,tiết 6->10,Ph 4.S-QP05,GV Đào Công Nghĩa,08/08/26 <hr>Chủ nhật,tiết 1->5,Ph 4.S-QP05,GV Đào Công Nghĩa,09/08/26 <hr>Chủ nhật,tiết 6->10,Ph 4.S-QP05,GV Đào Công Nghĩa,09/08/26 ",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": true,
+				"is_kg_xet_trungtkb": true,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6179076389829718963",
+				"id_mon": "-8726999111178005491",
+				"ma_mon": "841058",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "01",
+				"to": "01",
+				"lop": "DCT124C1",
+				"ds_lop": [
+					"DCT124C1"
+				],
+				"ds_khoa": [
+					"CTCT"
+				],
+				"is_kdk": false,
+				"sl_dk": 39,
+				"sl_cp": 50,
+				"sl_cl": 11,
+				"tkb": "Thứ 2,tiết 1->3,Ph 1.A402,GV Trần Sơn Hải,18/05/26 đến 22/06/26<hr>Thứ 2,tiết 4->5,Ph 1.A402,GV Trần Sơn Hải,18/05/26 đến 22/06/26<hr>Thứ 4,tiết 1->3,Ph 1.A402,GV Trần Sơn Hải,20/05/26 đến 24/06/26(TH)<hr>Thứ 4,tiết 4->5,Ph 1.A402,GV Trần Sơn Hải,20/05/26 đến 24/06/26(TH)",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5304756152002763900",
+				"id_mon": "-8726999111178005491",
+				"ma_mon": "841058",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "02",
+				"to": "01",
+				"lop": "DCT124C2",
+				"ds_lop": [
+					"DCT124C2"
+				],
+				"ds_khoa": [
+					"CTCT"
+				],
+				"is_kdk": false,
+				"sl_dk": 43,
+				"sl_cp": 50,
+				"sl_cl": 7,
+				"tkb": "Thứ 2,tiết 6->8,Ph 1.A402,GV Trần Sơn Hải,18/05/26 đến 22/06/26<hr>Thứ 2,tiết 9->10,Ph 1.A402,GV Trần Sơn Hải,18/05/26 đến 22/06/26<hr>Thứ 4,tiết 6->7,Ph 1.A402,GV Trần Sơn Hải,20/05/26 đến 24/06/26(TH)<hr>Thứ 4,tiết 8->10,Ph 1.A402,GV Trần Sơn Hải,20/05/26 đến 24/06/26(TH)",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5327481070142089938",
+				"id_mon": "-8726999111178005491",
+				"ma_mon": "841058",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "03",
+				"to": "01",
+				"lop": "DCT124C3",
+				"ds_lop": [
+					"DCT124C3"
+				],
+				"ds_khoa": [
+					"CTCT"
+				],
+				"is_kdk": false,
+				"sl_dk": 43,
+				"sl_cp": 50,
+				"sl_cl": 7,
+				"tkb": "Thứ 3,tiết 1->3,Ph 1.A402,GV Trịnh Tấn Đạt,19/05/26 đến 23/06/26<hr>Thứ 3,tiết 4->5,Ph 1.A402,GV Trịnh Tấn Đạt,19/05/26 đến 23/06/26<hr>Thứ 5,tiết 1->3,Ph 1.A402,GV Trịnh Tấn Đạt,21/05/26 đến 25/06/26(TH)<hr>Thứ 5,tiết 4->5,Ph 1.A402,GV Trịnh Tấn Đạt,21/05/26 đến 25/06/26(TH)",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-7698867153300974405",
+				"id_mon": "-8726999111178005491",
+				"ma_mon": "841058",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "04",
+				"to": "01",
+				"lop": "DCT124C4",
+				"ds_lop": [
+					"DCT124C4"
+				],
+				"ds_khoa": [
+					"CTCT"
+				],
+				"is_kdk": false,
+				"sl_dk": 35,
+				"sl_cp": 50,
+				"sl_cl": 15,
+				"tkb": "Thứ 3,tiết 6->8,Ph 1.A501,GV Trịnh Tấn Đạt,19/05/26 đến 23/06/26<hr>Thứ 3,tiết 9->10,Ph 1.A501,GV Trịnh Tấn Đạt,19/05/26 đến 23/06/26<hr>Thứ 5,tiết 6->8,Ph 1.A402,GV Trịnh Tấn Đạt,21/05/26 đến 25/06/26(TH)<hr>Thứ 5,tiết 9->10,Ph 1.A402,GV Trịnh Tấn Đạt,21/05/26 đến 25/06/26(TH)",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-4730323074977179664",
+				"id_mon": "-8726999111178005491",
+				"ma_mon": "841058",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "05",
+				"to": "01",
+				"lop": "DCT124C5",
+				"ds_lop": [
+					"DCT124C5"
+				],
+				"ds_khoa": [
+					"CTCT"
+				],
+				"is_kdk": false,
+				"sl_dk": 44,
+				"sl_cp": 50,
+				"sl_cl": 6,
+				"tkb": "Thứ 4,tiết 1->3,Ph 1.A501,GV Trịnh Tấn Đạt,20/05/26 đến 24/06/26<hr>Thứ 4,tiết 4->5,Ph 1.A501,GV Trịnh Tấn Đạt,20/05/26 đến 24/06/26<hr>Thứ 6,tiết 6->8,Ph 1.A402,GV Trịnh Tấn Đạt,22/05/26 đến 26/06/26(TH)<hr>Thứ 6,tiết 9->10,Ph 1.A402,GV Trịnh Tấn Đạt,22/05/26 đến 26/06/26(TH)",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5013148176734060352",
+				"id_mon": "-8726999111178005491",
+				"ma_mon": "841058",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "06",
+				"to": "01",
+				"lop": "DCT124C6",
+				"ds_lop": [
+					"DCT124C6"
+				],
+				"ds_khoa": [
+					"CTCT"
+				],
+				"is_kdk": false,
+				"sl_dk": 34,
+				"sl_cp": 50,
+				"sl_cl": 16,
+				"tkb": "Thứ 2,tiết 1->3,Ph 1.A501,GV Trịnh Tấn Đạt,18/05/26 đến 22/06/26<hr>Thứ 2,tiết 4->5,Ph 1.A501,GV Trịnh Tấn Đạt,18/05/26 đến 22/06/26<hr>Thứ 6,tiết 1->3,Ph 1.A402,GV Trịnh Tấn Đạt,22/05/26 đến 26/06/26(TH)<hr>Thứ 6,tiết 4->5,Ph 1.A402,GV Trịnh Tấn Đạt,22/05/26 đến 26/06/26(TH)",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6795539748608749322",
+				"id_mon": "-8726999111178005491",
+				"ma_mon": "841058",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "07",
+				"to": "01",
+				"lop": "DCT124C7",
+				"ds_lop": [
+					"DCT124C7"
+				],
+				"ds_khoa": [
+					"CTCT"
+				],
+				"is_kdk": false,
+				"sl_dk": 35,
+				"sl_cp": 50,
+				"sl_cl": 15,
+				"tkb": "Thứ 2,tiết 6->7,Ph 1.A501,GV Trịnh Tấn Đạt,18/05/26 đến 22/06/26(TH)<hr>Thứ 2,tiết 8->10,Ph 1.A501,GV Trịnh Tấn Đạt,18/05/26 đến 22/06/26(TH)<hr>Thứ 4,tiết 6->8,Ph 1.A501,GV Trịnh Tấn Đạt,20/05/26 đến 24/06/26<hr>Thứ 4,tiết 9->10,Ph 1.A501,GV Trịnh Tấn Đạt,20/05/26 đến 24/06/26",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-6139783449424671182",
+				"id_mon": "-5953894619121402077",
+				"ma_mon": "841022",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "3",
+				"so_tc_so": {
+					"source": "3.0",
+					"parsedValue": 3
+				},
+				"is_vuot": false,
+				"nhom_to": "08",
+				"to": "01",
+				"lop": "DCT125C1",
+				"ds_lop": [
+					"DCT125C1"
+				],
+				"ds_khoa": [
+					"CTCT"
+				],
+				"is_kdk": false,
+				"sl_dk": 48,
+				"sl_cp": 55,
+				"sl_cl": 7,
+				"tkb": "Thứ 2,tiết 1->3,Ph C.A301,GV Phan Tấn Quốc,18/05/26 đến 22/06/26<hr>Thứ 2,tiết 4->5,Ph C.A301,GV Phan Tấn Quốc,18/05/26 đến 22/06/26<hr>Thứ 6,tiết 6->8,Ph C.A410,GV Phan Tấn Quốc,22/05/26 đến 26/06/26(TH)<hr>Thứ 6,tiết 9->10,Ph C.A410,GV Phan Tấn Quốc,22/05/26 đến 26/06/26(TH)",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			},
+			{
+				"id_to_hoc": "-5829675585215799230",
+				"id_mon": "-6230603544374870828",
+				"ma_mon": "841109",
+				"ten_mon": "",
+				"ten_mon_eg": "                              ",
+				"so_tc": "4",
+				"so_tc_so": {
+					"source": "4.0",
+					"parsedValue": 4
+				},
+				"is_vuot": false,
+				"nhom_to": "09",
+				"to": "01",
+				"lop": "DCT125C1",
+				"ds_lop": [
+					"DCT125C1"
+				],
+				"ds_khoa": [
+					"CTCT"
+				],
+				"is_kdk": false,
+				"sl_dk": 36,
+				"sl_cp": 50,
+				"sl_cl": 14,
+				"tkb": "Thứ 3,tiết 1->3,Ph C.A301,GV Nguyễn Duy Hàm,05/05/26 đến 23/06/26<hr>Thứ 3,tiết 4->5,Ph C.A301,GV Nguyễn Duy Hàm,05/05/26 đến 23/06/26<hr>Thứ 4,tiết 1->3,Ph C.A301,GV Nguyễn Duy Hàm,06/05/26 đến 17/06/26(TH)<hr>Thứ 4,tiết 4->5,Ph C.A301,GV Nguyễn Duy Hàm,06/05/26 đến 17/06/26(TH)",
+				"is_hl": false,
+				"enable": false,
+				"hauk": false,
+				"is_dk": false,
+				"gc_enable": "Ngoài thời gian cho phép đăng ký",
+				"is_rot": false,
+				"is_ctdt": false,
+				"is_chctdt": false,
+				"is_kg_lt": false,
+				"thu": 0,
+				"tbd": 0,
+				"so_tiet": 0,
+				"is_kg_huy_kqdk": false,
+				"is_kg_xet_trungtkb": false,
+				"sl_nghi_day": 0,
+				"sl_day_bu": 0,
+				"is_day_bu": false
+			}
+		],
+		"hien_thi_cot_mon_hoc_bd": false,
+		"is_xem_danh_sach_sinh_vien": false,
+		"hien_thi_cot_gc_to_hop": false
+	},
+	"is_show_thoi_gian": false,
+	"is_kg_cap_nhat_ssdk_khi_xoa": false,
+	"is_in_so_bao_giang": false,
+	"is_in_sbg_pdf": false,
+	"is_sub_report_nhat_ky_gd": false,
+	"id_rs": "MzEyMzUwMDAyM3w2MzkxOTAxMjY0MzE3MjQzMTB8LTU5MTQ3NzMzNjI1MzI2NzM5ODE=.QlYDnQL+JNKOt2G8m3ZsnrFLRdFViXwKRGBhgqS/bOY=",
+	"result": true,
+	"code": 200,
+	"time": "07/07/2026: 09:17:23"
+}

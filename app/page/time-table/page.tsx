@@ -298,7 +298,7 @@ const TimeTablePage = () => {
                             />
 
                             {isSearch && (
-                                <div className="absolute w-full mt-2 bg-white rounded-xl border border-slate-200 shadow-lg overflow-hidden z-10">
+                                <div className="absolute w-full mt-2 bg-white rounded-xl border border-slate-200 shadow-lg overflow-hidden z-15">
                                     <div className="flex items-center justify-between bg-slate-50 border-b border-slate-100 px-3 py-2">
                                         <p className="text-xs text-slate-500">
                                             Tìm thấy{" "}

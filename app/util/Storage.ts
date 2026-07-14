@@ -1,6 +1,6 @@
 'use client'
 
-import { CALENDAR_LIST } from "../config/localStorage";
+import { CALENDAR_LIST, TIME_TABLE_VISIT } from "../config/localStorage";
 import { Calendar } from "../type";
 
 type CalendarItem = {
@@ -60,5 +60,25 @@ export const deleteCal = (id: string): boolean => {
         return true;
     } catch (e) {
         return false;
+    }
+}
+
+export const hasVisitedTimeTable = (): boolean => {
+    if (typeof window === "undefined") return false;
+
+    try {
+        return localStorage.getItem(TIME_TABLE_VISIT) === "true";
+    } catch (e) {
+        return false;
+    }
+}
+
+export const markTimeTableVisited = (): void => {
+    if (typeof window === "undefined") return;
+
+    try {
+        localStorage.setItem(TIME_TABLE_VISIT, "true");
+    } catch (e) {
+        // Ignore storage errors
     }
 }

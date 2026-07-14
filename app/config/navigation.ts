@@ -1,0 +1,1 @@
+export const IS_ACCESS = "is_access";

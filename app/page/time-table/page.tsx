@@ -15,7 +15,7 @@ import SaveCalendar from "@/app/component/SaveCalendar";
 import { W_LocDSNhomTo } from "@/app/util/W_LocDSNhomTo";
 import { W_FormatDS } from "@/app/util/W_FormatDS";
 import { v4 as uuidv4 } from 'uuid';
-import { getCals, saveCal } from "@/app/util/Storage";
+import { getCals, markTimeTableVisited, saveCal } from "@/app/util/Storage";
 import { ToastContext } from "@/app/context/Toast";
 
 type Subject = {
@@ -60,6 +60,10 @@ const TimeTablePage = () => {
     const [isOpenList, setIsOpenList] = useState<boolean>(true);
 
     const [isOpenSave, setIsOpenSave] = useState<boolean>(false);
+
+    useEffect(() => {
+        markTimeTableVisited();
+    }, []);
 
     useEffect(() => {
         if (!cls.current) {

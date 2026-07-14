@@ -116,6 +116,22 @@ const TimeTableDetailPage = () => {
 
     const activeSubject = useMemo(() => subjects.find((s) => s.id === activeSubjectId) ?? null, [subjects, activeSubjectId]);
 
+    // Mã các môn đã có ít nhất 1 nhóm tổ được chọn -> để hiển thị dấu tick trong danh sách
+    const selectedSubjectIds = useMemo(
+        () => new Set(selectedPeriods.map((p) => p.id)),
+        [selectedPeriods]
+    );
+
+    // Danh sách môn đã chọn, kèm nhóm tổ tương ứng, dùng cho khối "Môn đã chọn"
+    const selectedSubjects = useMemo(() => {
+        return subjects
+            .filter((s) => selectedSubjectIds.has(s.id))
+            .map((s) => ({
+                subject: s,
+                periods: selectedPeriods.filter((p) => p.id === s.id),
+            }));
+    }, [subjects, selectedSubjectIds, selectedPeriods]);
+
     const handleChoosePeriod = (gp: Period) => {
         if (!calendar) return;
 
@@ -185,6 +201,13 @@ const TimeTableDetailPage = () => {
 
         setCalendar(calendarTmp);
         setSelectedPeriods((prev) => prev.filter((p) => !(p.id === gp.id && p.group === gp.group)));
+    };
+
+    // Bỏ chọn toàn bộ nhóm tổ của một môn (dùng cho nút x trong khối "Môn đã chọn")
+    const removeSubject = (subjectId: string) => {
+        const periodsOfSubject = selectedPeriods.filter((p) => p.id === subjectId);
+        periodsOfSubject.forEach((p) => handleRemovePeriod(p));
+        if (activeSubjectId === subjectId) setActiveSubjectId(null);
     };
 
     const handleSaveChanges = () => {
@@ -274,28 +297,85 @@ const TimeTableDetailPage = () => {
                     />
                 </div>
 
+                {selectedSubjects.length > 0 && (
+                    <div>
+                        <h2 className="mb-2 text-xs font-medium uppercase tracking-wide text-slate-400">
+                            Môn đã chọn ({selectedSubjects.length})
+                        </h2>
+                        <div className="flex flex-wrap gap-2">
+                            {selectedSubjects.map(({ subject, periods }) => (
+                                <div
+                                    key={subject.id}
+                                    className={`flex items-center gap-1.5 rounded-lg border pl-3 pr-1.5 py-1 text-xs transition-colors ${
+                                        activeSubjectId === subject.id
+                                            ? 'border-slate-400 bg-slate-50'
+                                            : 'border-slate-200'
+                                    }`}
+                                >
+                                    <button
+                                        onClick={() => setActiveSubjectId(subject.id)}
+                                        className="font-medium text-slate-700 max-w-40 truncate"
+                                    >
+                                        {subject.name}
+                                        <span className="ml-1 text-slate-400">
+                                            · Nhóm {periods.map((p) => p.group).join(', ')}
+                                        </span>
+                                    </button>
+                                    <button
+                                        onClick={() => removeSubject(subject.id)}
+                                        aria-label={`Bỏ chọn ${subject.name}`}
+                                        className="rounded-full p-0.5 text-slate-400 hover:bg-slate-200 hover:text-slate-600"
+                                    >
+                                        <CloseIcon sx={{ fontSize: 14 }} />
+                                    </button>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
+
                 <div className="grid gap-4 xl:grid-cols-[0.9fr_1.1fr]">
                     <div className="rounded-xl border border-slate-200 bg-slate-50 p-3">
                         <p className="mb-2 text-sm font-semibold text-slate-700">Danh sách môn</p>
                         <div className="max-h-72 space-y-2 overflow-y-auto">
                             {filteredSubjects.map((subject) => {
-                                const isSelected = subject.id === activeSubjectId;
+                                const isActive = subject.id === activeSubjectId;
+                                const isChosen = selectedSubjectIds.has(subject.id);
                                 return (
                                     <button
                                         key={subject.id}
                                         onClick={() => setActiveSubjectId(subject.id)}
-                                        className={`w-full rounded-lg border px-3 py-2 text-left transition ${isSelected ? 'border-slate-400 bg-white' : 'border-slate-200 bg-transparent hover:bg-white'}`}
+                                        className={`w-full rounded-lg border px-3 py-2 text-left transition ${
+                                            isActive
+                                                ? 'border-slate-400 bg-white'
+                                                : isChosen
+                                                ? 'border-slate-200 bg-emerald-100/60 hover:bg-white'
+                                                : 'border-slate-200 bg-transparent hover:bg-white'
+                                        }`}
                                     >
                                         <div className="flex items-center justify-between gap-2">
                                             <div>
                                                 <p className="text-sm font-medium text-slate-800">{subject.name}</p>
                                                 <p className="text-xs text-slate-400">Mã: {subject.id}</p>
                                             </div>
-                                            {isSelected && <CheckIcon sx={{ fontSize: 16 }} className="text-slate-700" />}
+                                            <div className="flex items-center gap-1.5 shrink-0">
+                                                {isChosen && (
+                                                    <span className="flex items-center justify-center h-4 w-4 rounded-full bg-emerald-500">
+                                                        <CheckIcon sx={{ fontSize: 10 }} className="text-white" />
+                                                    </span>
+                                                )}
+                                                {isActive && <CheckIcon sx={{ fontSize: 16 }} className="text-slate-700" />}
+                                            </div>
                                         </div>
                                     </button>
                                 );
                             })}
+
+                            {filteredSubjects.length === 0 && (
+                                <p className="text-sm text-slate-400 text-center py-8">
+                                    Không tìm thấy môn học phù hợp
+                                </p>
+                            )}
                         </div>
                     </div>
 
@@ -306,7 +386,12 @@ const TimeTableDetailPage = () => {
                                 {activeSubject.groups.map((gp, idx) => {
                                     const isSelected = selectedPeriods.some((p) => p.id === gp.id && p.group === gp.group);
                                     return (
-                                        <label key={`${gp.id}-${gp.group}-${idx}`} className="flex cursor-pointer items-start justify-between gap-3 rounded-lg border border-slate-200 px-3 py-2 hover:bg-slate-50">
+                                        <label
+                                            key={`${gp.id}-${gp.group}-${idx}`}
+                                            className={`flex cursor-pointer items-start justify-between gap-3 rounded-lg border px-3 py-2 transition-colors ${
+                                                isSelected ? 'border-emerald-300 bg-emerald-50/60' : 'border-slate-200 hover:bg-slate-50'
+                                            }`}
+                                        >
                                             <div>
                                                 <p className="text-sm font-medium text-slate-800">{gp.name}</p>
                                                 <p className="text-xs text-slate-500">Nhóm {gp.group} · {gp.numberOfCredit} TC · {gp.sl_cl}/{gp.sl_cp} chỗ</p>

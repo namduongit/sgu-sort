@@ -31,9 +31,19 @@ export class W_FormatDS {
                 return;
             }
 
-            schedule[Number(dayOfWeek)] = {
-                start: periodStart,
-                end: periodEnd
+            if (schedule[Number(dayOfWeek)]) {
+                const nStart = schedule[Number(dayOfWeek)].start > periodStart ? periodStart : schedule[Number(dayOfWeek)].start;
+                const nEnd = schedule[Number(dayOfWeek)].end > periodEnd ? schedule[Number(dayOfWeek)].end : periodEnd;
+
+                schedule[Number(dayOfWeek)] = {
+                    start: nStart,
+                    end: nEnd
+                }
+            } else {
+                schedule[Number(dayOfWeek)] = {
+                    start: periodStart,
+                    end: periodEnd
+                }
             }
 
             const position = p3.replace("Ph", "").trim();

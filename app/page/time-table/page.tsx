@@ -187,6 +187,12 @@ const TimeTablePage = () => {
     }
 
     const handleChoosePeriod = (gp: Period) => {
+        const existing = selectedPeriods.find(sp => sp.id === gp.id);
+        if (existing) {
+            modalContext?.openModal({ title: "Trùng môn", message: "Đã có môn này trong thời khóa biểu" });
+            return;
+        }
+
         const schedule = gp.class.schedule;
         let calendarTmp: Calendar[][] = cal.map(row => row.map(cell => ({ ...cell })));
         let isAccept = true;

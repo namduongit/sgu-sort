@@ -200,7 +200,7 @@ const TimeTablePage = () => {
         for (const [key, value] of Object.entries(schedule)) {
             const dateOfWeek = Number(key);
             const start = value.start - 1;
-            const end = value.end - 1;
+            const end = value.end;
 
             const calSche = calendarTmp[dateOfWeek - 2];
 
@@ -242,7 +242,7 @@ const TimeTablePage = () => {
         for (const [key, value] of Object.entries(schedule)) {
             const dateOfWeek = Number(key);
             const start = value.start - 1;
-            const end = value.end - 1;
+            const end = value.end;
 
             const calSche = cal[dateOfWeek - 2];
 

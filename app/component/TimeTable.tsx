@@ -54,7 +54,7 @@ const TDCalendar = (cal: Calendar) => {
         const color = getSubjectColor(cal.subject?.id);
 
         return (
-            <td rowSpan={cal.val} className={`sticky text-sm left-0 z-10 rounded ${color.bg} border-l-3 ${color.border} px-4 py-3 font-medium text-slate-700 space-y-2`}>
+            <td rowSpan={cal.val + 1} className={`sticky text-sm left-0 z-10 rounded ${color.bg} border-l-3 ${color.border} px-4 py-3 font-medium text-slate-700 space-y-2`}>
                 <p className={`font-semibold ${color.text}`}>{cal.subject?.name}</p>
                 <div className={`${color.tag} text-xs space-y-1`}>
                     <p>Mã MH: {cal.subject?.id}</p>

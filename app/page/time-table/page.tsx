@@ -175,7 +175,8 @@ const TimeTablePage = () => {
             delete rest[subjectId];
             return rest;
         });
-        const gp = dsNTs.find(nt => nt.id === subjectId);
+        
+        const gp = selectedPeriods.find(p => p.id === subjectId);
         if (gp) {
             handleRemovePeriod(gp);
         }
@@ -244,7 +245,7 @@ const TimeTablePage = () => {
             const start = value.start - 1;
             const end = value.end;
 
-            const calSche = cal[dateOfWeek - 2];
+            const calSche = calendarTmp[dateOfWeek - 2];
 
             for (let i = start; i < end; i++) {
                 calSche[i].val = 0;
@@ -256,7 +257,7 @@ const TimeTablePage = () => {
         }
 
         setCal(calendarTmp);
-        setSelectedPeriods(selectedPeriods.filter(p => p.id !== gp.id && p.group === gp.group));
+        setSelectedPeriods(selectedPeriods.filter(p => !(p.id === gp.id && p.group === gp.group)));
     }
 
     const handleSaveTimeTable = (name: string, calendar: Calendar[][]) => {
@@ -551,7 +552,7 @@ const TimeTablePage = () => {
                 </div>
             )}
 
-            <TimeTable calendar={cal} numberOfCourse={selectedPeriods.length} numberOfCredit={selectedPeriods.reduce((val, p) => Number(p.numberOfCredit) ?? 0 + val, 0)} />
+            <TimeTable calendar={cal} numberOfCourse={selectedPeriods.length} numberOfCredit={selectedPeriods.reduce((val, p) => val + (Number(p.numberOfCredit) || 0), 0)} />
 
             <div className="flex justify-end">
                 <button
@@ -566,7 +567,7 @@ const TimeTablePage = () => {
                 <SaveCalendar
                     calendar={cal}
                     numberOfCourse={selectedPeriods.length}
-                    numberOfCredit={selectedPeriods.reduce((val, p) => Number(p.numberOfCredit) ?? 0 + val, 0)}
+                    numberOfCredit={selectedPeriods.reduce((val, p) => val + (Number(p.numberOfCredit) || 0), 0)}
                     onSaveCalendar={handleSaveTimeTable}
                     onClose={() => setIsOpenSave(false)}
                 />

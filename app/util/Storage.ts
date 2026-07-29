@@ -10,6 +10,7 @@ type CalendarItem = {
 }
 
 export const getCals = (): CalendarItem[] => {
+    if (typeof window === 'undefined') return [];
     const local = localStorage.getItem(CALENDAR_LIST);
     if (!local) return [];
 

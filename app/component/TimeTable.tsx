@@ -60,6 +60,7 @@ const TDCalendar = (cal: Calendar) => {
                     <p>Mã MH: {cal.subject?.id}</p>
                     <p>GV: {cal.subject?.class.teachers.join(", ")}</p>
                     <p>Phòng: {cal.subject?.class.positions.join(", ")}</p>
+                    <p>Nhóm: {cal.subject?.group}</p>
                 </div>
             </td>
         )
